@@ -147,4 +147,7 @@
   .desktop-nav {
     padding: 0.5em 1em 0.5em 1em;
   }
+  .logo > h1 {
+    font-size: 1.8em;
+  }
 }
