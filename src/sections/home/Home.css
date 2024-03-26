@@ -128,12 +128,10 @@
     order: 2;
     justify-items: center;
     align-items: start;
-    background-color: pink;
   }
   .hero-image {
     height: 100%;
     width: 75%;
-    background-color: green;
   }
 
   .headings {
@@ -160,7 +158,6 @@
     height: 12rem;
     width: 12rem;
     align-self: start;
-    background-color: yellow;
   }
   .links > i {
     font-size: 2.2rem;
