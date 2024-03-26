@@ -7,7 +7,7 @@ import javascriptLogo from '../../assets/javascript-logo.webp';
 import reactLogo from '../../assets/react-logo.png';
 import nextjsLogo from '../../assets/nextjs-logo.png';
 import nodejsLogo from '../../assets/nodejs-logo.webp';
-import mongodbLogo from '../../assets/mongodb-logo.png';
+import mongodbLogo from '../../assets/mongodb-logo.svg';
 import framerLogo from '../../assets/framer-motion-logo.webp';
 import gsapLogo from '../../assets/gsap-logo.png';
 import bootstrapLogo from '../../assets/bootstrap-logo.png';
@@ -44,7 +44,7 @@ const Skills = () => {
             <img src={nodejsLogo} alt="" />
           </div>
           <div className="fourth-skills-card">
-            <img src={mongodbLogo} alt="" />
+            <img style={{height:'11rem',width:'11rem'}} src={mongodbLogo} alt="" />
           </div>
         </div>
         <div className="third-row">
