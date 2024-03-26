@@ -262,6 +262,9 @@
   }
 }
 @media screen and (max-width: 670px){
+    .projects-container > h1 {
+    font-size: 2rem;
+  }
   .first-image {
     height: 11rem;
     width: 18rem;

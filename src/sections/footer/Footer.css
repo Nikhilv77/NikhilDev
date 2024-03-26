@@ -134,5 +134,22 @@
   }
   .copyright>p {
     text-align: center;
+    font-size: 1.3rem;
   }
+  .cta > h1 {
+    font-size: 2rem;
+  }
+  .cta > h3 {
+    font-size: 1.4rem;
+  }
+  .links > ul > li {
+    font-size: 1.3rem;
+  }
+  .phone > span,
+.email > span {
+  font-size: 1.3rem;
+}
+.contact {
+  gap: 0.1rem;
+}
 }
