@@ -134,7 +134,7 @@
   }
   .copyright>p {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .cta > h1 {
     font-size: 2rem;
@@ -143,11 +143,11 @@
     font-size: 1.4rem;
   }
   .links > ul > li {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .phone > span,
 .email > span {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .contact {
   gap: 0.1rem;
