@@ -125,12 +125,15 @@ const Projects = () => {
 <div className="first-card-texts">
   <div className="project-texts">
 <h1>YumYard</h1>
-  <h2>Full stack Restraunt web app with Admin Dashboard. <br /> Made with React, express, mongodb, bootstrap.
-    <br />
+  <h2>Full stack Restraunt web app with Admin Dashboard. Made with React, express, mongodb, bootstrap.
+    {/* <br />
     core features - Payment gateway, automatic receipt generation, order cancellation, location fetching with maps, dynamic data visualisation.
     <br />
-    Credentials - nv581339@gmail.com, 123456
+    Credentials - nv581339@gmail.com, 123456 */}
   </h2>
+  <div>
+  <button className="know-more">Know more</button>
+  </div>
   </div>
   <div className="first-card-bottom">
   <div className="first-card-links">
