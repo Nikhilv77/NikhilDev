@@ -148,8 +148,8 @@
   }
 
   .hero-image > img {
-    height: 90%;
-    width: 100%;
+    height: 12rem;
+    width: 12rem;
     align-self: end;
   }
   .links > i {
