@@ -244,10 +244,10 @@ padding: 1rem;
 }
 @media screen and (max-width:422px){
   .company-container>h1{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .experience-wrapper>h1{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .role-info{
     justify-self: center;
