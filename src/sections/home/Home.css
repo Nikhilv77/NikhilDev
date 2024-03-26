@@ -1,5 +1,5 @@
 .home-section {
-  min-height: calc(100vh - 4.5rem);
+  min-height: calc(100svh - 4.5rem);
   width: 100vw;
   background-color: var(--primary-color);
   display: grid;
@@ -125,6 +125,7 @@
   .hero-image {
     height: 100%;
     width: 75%;
+    background-color: green;
   }
 
   .headings {
@@ -151,6 +152,7 @@
     height: 12rem;
     width: 12rem;
     align-self: end;
+    background-color: yellow;
   }
   .links > i {
     font-size: 2.2rem;
