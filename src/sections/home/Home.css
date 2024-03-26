@@ -1,5 +1,5 @@
 .home-section {
-  min-height: calc(100dvh - 4.5rem);
+ height: calc(100vh - 4.5rem);
   width: 100vw;
   background-color: var(--primary-color);
   display: grid;
@@ -110,6 +110,12 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .home-section {
+    height: calc(100vh - 4.5rem);
+     justify-items: center;
+     align-items: start;
+     padding-top: 1rem;
+   }
   
   .hero-container {
     grid-template-columns: 1fr;
