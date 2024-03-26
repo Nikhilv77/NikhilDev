@@ -1,5 +1,5 @@
 .home-section {
-  min-height: calc(100svh - 4.5rem);
+  min-height: calc(100dvh - 4.5rem);
   width: 100vw;
   background-color: var(--primary-color);
   display: grid;
