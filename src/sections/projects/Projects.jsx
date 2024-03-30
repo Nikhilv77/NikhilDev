@@ -5,6 +5,7 @@ import secondImage from '../../assets/yy-2.png';
 import echoAIVideo from '../../assets/echo-ai.mp4';
 import urbanCropsVideo from '../../assets/uc.mp4';
 import yumyardVideo from '../../assets/Yumyard.mp4';
+import scoopSavorVideo from '../../assets/ss.mp4';
 const Projects = () => {
   return (
     <section id="projects" className="projects-section">
@@ -91,11 +92,11 @@ const Projects = () => {
 </div>
 </div>
 <div className="project-card">
-<video className="project-video" src={yumyardVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
+<video className="project-video" src={scoopSavorVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 <div className="project-card-texts">
 <div className="project-texts">
-<h1>YumYard</h1>
-  <h2>Full stack Restraunt web app with Admin Dashboard. Made with React, express, mongodb, bootstrap.
+<h1>ScoopSavor</h1>
+  <h2>Front-End Animated Ice cream Website made in React, Gsap and Framer motion.
   
   </h2>
   <div>
