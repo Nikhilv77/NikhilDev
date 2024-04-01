@@ -4,6 +4,8 @@ import echoAIVideo from '../../assets/echo-ai.mp4';
 import urbanCropsVideo from '../../assets/uc.mp4';
 import yumyardVideo from '../../assets/Yumyard.mp4';
 import scoopSavorVideo from '../../assets/ss.mp4';
+import portfolioVideo from '../../assets/portfolio-video.mp4';
+import blinkChatVideo from '../../assets/blinkchat-video.mp4'
 import {easeInOut, motion} from 'framer-motion';
 const Projects = () => {
   const openYumyardModalHandler = ()=>{
@@ -179,11 +181,11 @@ whileInView={{rotate:0,filter:'grayscale(0)'}}
 transition={{type:easeInOut, duration:1, delay:0.5}}
 viewport={{once:true}}
 className="project-card">
-<video className="project-video" src={yumyardVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
+<video className="project-video" src={blinkChatVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 <div className="project-card-texts">
 <div className="project-texts">
-<h1>YumYard</h1>
-  <h2>Full stack Restraunt web app with Admin Dashboard. Made with React, express, mongodb, bootstrap.
+<h1>BlinkChat</h1>
+  <h2>Full stack Social media web app with Chat functionality. Made with React, express, mongodb.
   
   </h2>
   <div>
@@ -212,11 +214,11 @@ whileInView={{rotate:0,filter:'grayscale(0)'}}
 transition={{type:easeInOut, duration:1, delay:0.5}}
 viewport={{once:true}}
 className="project-card">
-<video className="project-video" src={yumyardVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
+<video className="project-video" src={portfolioVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 <div className="project-card-texts">
   <div className="project-texts">
-<h1>YumYard</h1>
-  <h2>Full stack Restraunt web app with Admin Dashboard. Made with React, express, mongodb, bootstrap.
+<h1>Portfolio</h1>
+  <h2>Front-End portfolio website made in React Js, Css, Framer-motion(for animations).
   
   </h2>
   <div>
@@ -224,11 +226,15 @@ className="project-card">
   </div>
   </div>
   <div className="project-card-bottom">
-  <div className="project-card-links">
+  <div onClick={()=>{
+    window.open('https://github.com/Nikhilv77/NikhilDev')
+  }} className="project-card-links">
   <i class="ri-github-line"></i>
     <span>Source code</span>
   </div>
-  <div className="project-card-links">
+  <div onClick={()=>{
+    window.open('https://nikhilverma.vercel.app/')
+  }} className="project-card-links">
     <i class="ri-global-line"></i>
     <span>Live demo</span>
   </div>
