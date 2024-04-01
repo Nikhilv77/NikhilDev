@@ -48,7 +48,7 @@ const Footer = () => {
       to="about" 
       spy={true} 
       smooth={true} 
-      offset={-50} 
+      offset={-80} 
       duration={500} 
     >
       About

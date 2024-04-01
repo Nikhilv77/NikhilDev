@@ -23,6 +23,7 @@
   font-size: 1.6rem;
 }
 @media screen and (max-width:1200px){
+ 
   .features>h2, .credentials>h2{
     font-size: 1.4rem;
   }
@@ -30,6 +31,9 @@
 @media screen and (max-width:700px){
   .features>h2, .credentials>h2{
     font-size: 1.2rem;
+  }
+  .yumyard-modal{
+    width: 70vw;
   }
 }
 @media screen and (max-width:550px){
@@ -40,10 +44,13 @@
     width: 90%;
   
   }
+  .yumyard-modal{
+    width: 80vw;
+  }
 }
 @media screen and (max-width:435px){
   .features>h2, .credentials>h2{
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
  
 }
