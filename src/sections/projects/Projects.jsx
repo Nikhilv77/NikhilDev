@@ -1,18 +1,31 @@
 import React from "react";
 import './Projects.css';
-import firstImage from '../../assets/yy-1.png';
-import secondImage from '../../assets/yy-2.png';
 import echoAIVideo from '../../assets/echo-ai.mp4';
 import urbanCropsVideo from '../../assets/uc.mp4';
 import yumyardVideo from '../../assets/Yumyard.mp4';
 import scoopSavorVideo from '../../assets/ss.mp4';
+import {easeInOut, motion} from 'framer-motion';
 const Projects = () => {
+  const openYumyardModalHandler = ()=>{
+    const yyModal = document.getElementsByClassName('yumyard-modal')[0];
+    yyModal.style.left = '50%';
+    const yyBackdrop = document.getElementsByClassName('yumyard-backdrop')[0];
+    yyBackdrop.style.left = '0'
+  }
   return (
     <section id="projects" className="projects-section">
       <div className="projects-container">
 <h1>My Work</h1>
         <div className="first-card-container">
-      <div className="project-card">
+      <motion.div
+      initial = {{
+        rotate:15,
+        filter:'grayscale(100%)'
+      }}
+      whileInView={{rotate:0,filter:'grayscale(0)'}}
+      transition={{type:easeInOut, duration:1, delay:0.5}}
+      viewport={{once:true}}
+      className="project-card">
       <video className="project-video" src={yumyardVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 
 <div className="project-card-texts">
@@ -22,23 +35,35 @@ const Projects = () => {
   
   </h2>
   <div>
-  <button className="know-more">Know more</button>
+  <button onClick={openYumyardModalHandler} className="know-more">Know more</button>
   </div>
   </div>
   <div className="project-card-bottom">
-  <div className="project-card-links">
+  <div onClick={()=>{
+    window.open('https://github.com/Nikhilv77/YumYard-Client')
+  }} className="project-card-links">
   <i class="ri-github-line"></i>
     <span>Source code</span>
     
   </div>
-  <div className="project-card-links">
+  <div onClick={()=>{
+    window.open('https://yumyard.vercel.app/')
+  }} className="project-card-links">
     <i class="ri-global-line"></i>
     <span>Live demo</span>
   </div>
 </div>
 </div>
-      </div>
-      <div className="project-card">
+      </motion.div>
+      <motion.div
+      initial = {{
+        rotate:15,
+        filter:'grayscale(100%)'
+      }}
+      whileInView={{rotate:0,filter:'grayscale(0)'}}
+      transition={{type:easeInOut, duration:1, delay:0.5}}
+      viewport={{once:true}}
+      className="project-card">
  
       <video className="project-video" src={echoAIVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 <div className="project-card-texts">
@@ -50,22 +75,33 @@ const Projects = () => {
   </div>
   </div>
   <div className="project-card-bottom">
-  <div className="project-card-links">
+  <div onClick={()=>{
+    window.open('https://github.com/Nikhilv77/EchoAI')
+  }} className="project-card-links">
   <i class="ri-github-line"></i>
     <span>Source code</span>
     
   </div>
-  <div className="project-card-links">
+  <div onClick={()=>{
+    window.open('https://echo-ai-pi.vercel.app/')
+  }} className="project-card-links">
     <i class="ri-global-line"></i>
     <span>Live demo</span>
   </div>
 </div>
 </div>
-      </div>
+      </motion.div>
         </div>
         <div className="second-card-container">
-<div className="project-card">
-
+<motion.div
+initial = {{
+  rotate:15,
+  filter:'grayscale(100%)'
+}}
+whileInView={{rotate:0,filter:'grayscale(0)'}}
+transition={{type:easeInOut, duration:1, delay:0.5}}
+viewport={{once:true}}
+className="project-card">
 <video className="project-video" src={urbanCropsVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 
 <div className="project-card-texts">
@@ -79,19 +115,31 @@ const Projects = () => {
   </div>
   </div>
   <div className="project-card-bottom">
-  <div className="project-card-links">
+  <div onClick={()=>{
+    window.open('https://github.com/Nikhilv77/UrbanCrops')
+  }} className="project-card-links">
   <i class="ri-github-line"></i>
     <span>Source code</span>
     
   </div>
-  <div className="project-card-links">
+  <div onClick={()=>{
+    window.open('https://urban-crops.vercel.app/')
+  }} className="project-card-links">
     <i class="ri-global-line"></i>
     <span>Live demo</span>
   </div>
 </div>
 </div>
-</div>
-<div className="project-card">
+</motion.div>
+<motion.div
+initial = {{
+  rotate:15,
+  filter:'grayscale(100%)'
+}}
+whileInView={{rotate:0,filter:'grayscale(0)'}}
+transition={{type:easeInOut, duration:1, delay:0.5}}
+viewport={{once:true}}
+className="project-card">
 <video className="project-video" src={scoopSavorVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 <div className="project-card-texts">
 <div className="project-texts">
@@ -104,21 +152,33 @@ const Projects = () => {
   </div>
   </div>
   <div className="project-card-bottom">
-  <div className="project-card-links">
+  <div onClick={()=>{
+    window.open('https://github.com/Nikhilv77/ScoopSavor')
+  }} className="project-card-links">
   <i class="ri-github-line"></i>
     <span>Source code</span>
     
   </div>
-  <div className="project-card-links">
+  <div onClick={()=>{
+    window.open('https://scoop-savor.vercel.app/')
+  }} className="project-card-links">
     <i class="ri-global-line"></i>
     <span>Live demo</span>
   </div>
 </div>
 </div>
-</div>
+</motion.div>
         </div>
         <div className="third-card-container">
-<div className="project-card">
+<motion.div
+initial = {{
+  rotate:15,
+  filter:'grayscale(100%)'
+}}
+whileInView={{rotate:0,filter:'grayscale(0)'}}
+transition={{type:easeInOut, duration:1, delay:0.5}}
+viewport={{once:true}}
+className="project-card">
 <video className="project-video" src={yumyardVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 <div className="project-card-texts">
 <div className="project-texts">
@@ -142,8 +202,16 @@ const Projects = () => {
   </div>
 </div>
 </div>
-</div>
-<div className="project-card">
+</motion.div>
+<motion.div
+initial = {{
+  rotate:15,
+  filter:'grayscale(100%)'
+}}
+whileInView={{rotate:0,filter:'grayscale(0)'}}
+transition={{type:easeInOut, duration:1, delay:0.5}}
+viewport={{once:true}}
+className="project-card">
 <video className="project-video" src={yumyardVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 <div className="project-card-texts">
   <div className="project-texts">
@@ -166,7 +234,7 @@ const Projects = () => {
   </div>
 </div>
 </div>
-</div>
+</motion.div>
         </div>
       </div>
     </section>

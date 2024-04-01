@@ -3,38 +3,43 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-
 ::-webkit-scrollbar {
-  width: 10px; 
+  width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background-color: #f1f1f1; 
+  background-color: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: var(--secondary-color); 
-} 
-
-html{
-  scroll-behavior: smooth;
+  background-color: var(--secondary-color);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+    background-color: transparent !important;
 }
 
-body{
-  font-family: "Josefin Sans", sans-serif;
+body {
+  font-family: 'Josefin Sans', sans-serif;
   overflow-x: hidden;
 }
-button,a,i{
+button,
+a,
+i {
   -webkit-tap-highlight-color: transparent;
 }
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
 }
-:root{
- --primary-color: #fff;
- --secondary-color:rgb(14, 102, 255);
- --text-color: #262626;
- --secondary-text-color:#3a3a3a;
- --button-color:rgb(14, 102, 255);
+:root {
+  --primary-color: #fff;
+  --secondary-color: rgba(0, 122, 254, 255);
+  --text-color: #262626;
+  --secondary-text-color: #3a3a3a;
+  --button-color: rgba(0, 122, 254, 255);
 }

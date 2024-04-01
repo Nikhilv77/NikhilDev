@@ -84,7 +84,7 @@ textarea {
   font-family: 'Josefin Sans', sans-serif;
 }
 .contact-form > div > input {
-  background-color: transparent;
+  background-color: var(--text-color);
   border: none;
   border-bottom: 3px solid var(--primary-color);
 }
@@ -110,6 +110,11 @@ textarea {
   font-weight: 550;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
   font-family: 'Josefin Sans', sans-serif;
+  transition: 0.3s ease-in-out;
+}
+.contact-form > button:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 .bottom-links {
   position: absolute;
@@ -121,6 +126,11 @@ textarea {
 .bottom-links > i {
   font-size: 3rem;
   color: var(--primary-color);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.bottom-links > i:hover {
+  color: var(--secondary-color);
 }
 
 @media screen and (max-width: 1024px) {
@@ -159,5 +169,4 @@ textarea {
   .bottom-links > i {
     font-size: 2.6rem;
   }
-
 }

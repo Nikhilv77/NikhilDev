@@ -3,14 +3,19 @@ import './Experience.css'
 import companyImage from '../../assets/Logo.png'
 import reactImage from '../../assets/react-logo-vector.svg'
 import framerImage from '../../assets/framer.png'
+import {easeInOut, motion} from 'framer-motion'
 
 const Experience = () => {
   return (
-<section className="experience-section">
+<section id="experience" className="experience-section">
   <div>
     <h1>Experiences</h1>
 <div className="experience-container">
-  
+  <motion.div initial = {{left:0}}
+  whileInView={{left:'-100%'}}
+  transition={{duration:1.5, delay:0.5, type:easeInOut}}
+  viewport={{once:true}}
+  className="experience-overlay"></motion.div>
 <div className="company-container">
  
   <img className="company-image" src={companyImage} alt="" />

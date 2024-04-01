@@ -74,6 +74,15 @@
   text-shadow: 1.5px 1.5px 1.5px rgb(0, 0, 0);
   list-style: none;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.links>ul>li>a{
+  list-style: none;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.links > ul > li:hover{
+  transform: scale(1.08);
 }
 .contact {
   display: grid;
@@ -107,6 +116,10 @@
   color: var(--primary-color);
   text-shadow: 1.5px 1.5px 1.5px rgb(0, 0, 0);
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.symbols > i:hover{
+  color: var(--text-color);
 }
 @media screen and (max-width: 1050px) {
   .footer-section {

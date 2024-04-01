@@ -12,14 +12,24 @@ import framerLogo from '../../assets/framer-motion-logo.webp';
 import gsapLogo from '../../assets/gsap-logo.png';
 import bootstrapLogo from '../../assets/bootstrap-logo.png';
 import tailwindLogo from '../../assets/tailwind-css-logo.svg';
+import { easeInOut, motion } from "framer-motion";
 
 
 const Skills = () => {
   return(
-    <section className="skills-section">
+    <section id="skills" className="skills-section">
+     
         <h1>Skills</h1>
-      <div className="skills-container">
-        <div className="first-row">
+      <div
+ 
+      className="skills-container">
+     
+        <motion.div
+        initial={{ opacity:0}}
+        whileInView={{  opacity:1 }}
+        transition={{ duration: 1,delay:0.2, type:easeInOut }}
+        viewport={{once:true}}
+        className="first-row">
           <div className="first-skills-card">
              <img src={javaLogo} alt="" />
           </div>
@@ -32,8 +42,13 @@ const Skills = () => {
           <div className="fourth-skills-card">
             <img src={javascriptLogo} alt="" />
           </div>
-        </div>
-        <div className="second-row">
+        </motion.div>
+        <motion.div
+        initial={{ opacity:0}}
+        whileInView={{  opacity:1 }}
+        transition={{ duration: 1,delay:0.4, type:easeInOut }}
+        viewport={{once:true}}
+        className="second-row">
         <div className="first-skills-card">
 <img style={{height:'7rem',width:'7rem'}}  src={reactLogo} alt="" />
         </div>
@@ -46,8 +61,13 @@ const Skills = () => {
           <div className="fourth-skills-card">
             <img style={{height:'11rem',width:'11rem'}} src={mongodbLogo} alt="" />
           </div>
-        </div>
-        <div className="third-row">
+        </motion.div>
+        <motion.div
+        initial={{ opacity:0}}
+        whileInView={{  opacity:1 }}
+        transition={{ duration: 1,delay:0.6, type:easeInOut }}
+        viewport={{once:true}}
+        className="third-row">
         <div className="first-skills-card">
           <img style={{height:'7rem',width:'7rem'}}  src={framerLogo} alt="" />
         </div>
@@ -60,7 +80,7 @@ const Skills = () => {
           <div className="fourth-skills-card">
             <img src={tailwindLogo} alt="" />
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

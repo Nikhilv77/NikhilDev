@@ -1,10 +1,18 @@
 import React from "react";
 import './Contact.css';
 import contactImage from '../../assets/contact-me.png'
+import {easeInOut, motion} from 'framer-motion'
 
 const Contact = () => {
   return(
-    <section className="contact-section">
+    <motion.section
+    initial = {{scale:0.8,opacity:0.8}}
+    whileInView={{scale:1, opacity:1}}
+    transition={{duration:1,delay:0.5, type:easeInOut}}
+    viewport={{once:true}}
+    className="contact-section"
+    id="contact"
+    >
 <div>
       <h1>Contact me</h1>
     <div className="container">
@@ -14,7 +22,8 @@ const Contact = () => {
       <div className="form-container">
         <h1>Let's Talk</h1>
         <div>
-     <form className="contact-form">
+     <form  action="https://formspree.io/f/xvoeokjp"
+      method="POST" className="contact-form">
       <div>
       <label htmlFor="name">Name</label>
       <input type="text" name="name" id="name"/>
@@ -31,13 +40,17 @@ const Contact = () => {
      </form>
      </div>
      <div className="bottom-links">
-     <i class="ri-github-fill"></i>
-     <i class="ri-linkedin-box-fill"></i>
+     <i onClick={()=>{
+      window.open('https://github.com/Nikhilv77')
+     }} class="ri-github-fill"></i>
+     <i onClick={()=>{
+      window.open('https://www.linkedin.com/in/nikhil-verma-051696176/')
+     }} class="ri-linkedin-box-fill"></i>
      </div>
       </div>
     </div>
     </div>
-    </section>
+    </motion.section>
   );
 };
 

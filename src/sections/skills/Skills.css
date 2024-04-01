@@ -7,12 +7,16 @@
   gap: 1rem;
   grid-template-rows: 4rem auto;
   margin-top: 1.5rem;
+  background-color: var(--secondary-color);
+  padding-bottom: 0.5rem;
 }
+
 .skills-section > h1 {
   font-size: 2.8rem;
-  color: var(--secondary-color);
-  border-bottom: 3px solid var(--text-color);
+  color: var(--primary-color);
+  /* border-bottom: 3px solid var(--text-color); */
   text-shadow: 1px 1px 2px var(--text-color);
+  /* text-decoration: underline; */
 }
 .skills-container {
   width: 75vw;
@@ -20,6 +24,7 @@
   grid-template-rows: 1fr 1fr 1fr;
   gap: 0.5rem;
   place-items: center;
+
 }
 
 .first-row {
@@ -38,78 +43,93 @@
   gap: 0.5rem;
 }
 .first-skills-card {
-  width:15rem;
-  height:11rem;
+  width: 15rem;
+  height: 11rem;
   background-color: var(--primary-color);
   border-radius: 0.2rem;
   box-shadow: 0.3rem 0.3rem 1rem rgb(75, 74, 74);
   display: grid;
   place-items: center;
+  transition: 0.3s ease-in-out;
 }
-
+.first-skills-card:hover,
+.second-skills-card:hover,
+.third-skills-card:hover,
+.fourth-skills-card:hover {
+  transform: rotate(10deg) scale(1.02);
+  background-color: var(--text-color);
+}
 .second-skills-card {
-  width:15rem;
-  height:11rem;
+  width: 15rem;
+  height: 11rem;
   background-color: var(--primary-color);
   border-radius: 0.2rem;
   box-shadow: 0.3rem 0.3rem 1rem rgb(75, 74, 74);
   display: grid;
   place-items: center;
+  transition: 0.3s ease-in-out;
 }
 .third-skills-card {
-  width:15rem;
-  height:11rem;
+  width: 15rem;
+  height: 11rem;
   background-color: var(--primary-color);
   border-radius: 0.2rem;
   box-shadow: 0.3rem 0.3rem 1rem rgb(75, 74, 74);
   display: grid;
   place-items: center;
+  transition: 0.3s ease-in-out;
 }
 .fourth-skills-card {
-  width:15rem;
-  height:11rem;
+  width: 15rem;
+  height: 11rem;
   background-color: var(--primary-color);
   border-radius: 0.2rem;
   box-shadow: 0.3rem 0.3rem 1rem rgb(75, 74, 74);
   display: grid;
   place-items: center;
+  transition: 0.3s ease-in-out;
 }
 .first-skills-card > img,
 .second-skills-card > img,
 .third-skills-card > img,
-.fourth-skills-card > img{
-  width:8rem;
-  height:8rem;
+.fourth-skills-card > img {
+  width: 8rem;
+  height: 8rem;
   filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
 }
 
-@media screen and (max-width:1200px){
-  .skills-section{
+@media screen and (max-width: 1200px) {
+  .skills-section {
     margin-top: 0;
   }
-  .skills-container{
+  .skills-container {
     width: 90vw;
   }
-  }
-  @media screen and (max-width:1068px) {
-   .skills-container{
+}
+@media screen and (max-width: 1068px) {
+  .skills-container {
     width: 93vw;
-   }
-   .skills-section > h1 {
+  }
+  .skills-section > h1 {
     font-size: 2.6rem;
   }
+}
+@media screen and (max-width: 1040px) {
+  .first-row,
+  .second-row,
+  .third-row,
+  .fourth-row {
+    grid-template-columns: 1fr 1fr;
   }
-  @media screen and (max-width:1040px){
-    .first-row, .second-row, .third-row, .fourth-row {
-      grid-template-columns: 1fr 1fr;
-    }
+}
+@media screen and (max-width: 600px) {
+  .first-row,
+  .second-row,
+  .third-row,
+  .fourth-row {
+    grid-template-columns: 1fr;
   }
-  @media screen and (max-width:600px){
-   
-    .first-row, .second-row, .third-row, .fourth-row {
-      grid-template-columns: 1fr;
-    }
-    .skills-section > h1 {
-      font-size: 2rem;
-    }
+  .skills-section > h1 {
+    font-size: 2rem;
   }
+}
