@@ -171,7 +171,7 @@ className="project-card">
 </div>
 </motion.div>
         </div>
-        <div className="third-card-container">
+        <div className="third-card-container"> 
 <motion.div
 initial = {{
   rotate:15,

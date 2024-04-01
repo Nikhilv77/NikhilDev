@@ -45,7 +45,7 @@
   overflow: hidden;
 }
 .project-card {
-  background-color:var(--secondary-color);
+  background-color: var(--secondary-color);
   height: 100%;
   width: 100%;
   border-radius: 0.2rem;
@@ -159,12 +159,12 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     row-gap: 1rem;
-    height: 140vh;
+    height: 182vh;
     width: 80%;
     margin: auto;
   }
   .project-card {
-    grid-template-rows: 1fr 12rem;
+    grid-template-rows: 0.5fr 1.5fr;
   }
   .project-card-texts > div > h2 {
     color: var(--primary-color);
