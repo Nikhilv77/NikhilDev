@@ -20,67 +20,143 @@ const Skills = () => {
     <section id="skills" className="skills-section">
      
         <h1>Skills</h1>
+        <div className="skills-container-container">
       <div
  
       className="skills-container">
      
-        <motion.div
-        initial={{ opacity:0}}
-        whileInView={{  opacity:1 }}
-        transition={{ duration: 1,delay:0.2, type:easeInOut }}
-        viewport={{once:true}}
+        <div
+   
         className="first-row">
           <div className="first-skills-card">
-             <img src={javaLogo} alt="" />
+             <motion.img
+             initial = {{
+              scale:0.2
+            }}
+            whileInView={{scale:1,rotate:360}}
+            transition={{duration:1, delay:0.2, type:easeInOut}}
+            viewport={{once:true}}
+             src={javaLogo} alt="" />
           </div>
           <div className="second-skills-card">
-            <img src={htmlLogo} alt="" />
+            <motion.img
+            initial = {{
+              scale:0.2
+            }}
+            whileInView={{scale:1,rotate:360}}
+            transition={{duration:1, delay:0.2, type:easeInOut}}
+            viewport={{once:true}}
+            src={htmlLogo} alt="" />
           </div>
           <div className="third-skills-card">
-            <img style={{height:'7rem',width:'7rem'}}  src={cssLogo} alt="" />
+            <motion.img
+            initial = {{
+              scale:0.2
+            }}
+            whileInView={{scale:1,rotate:360}}
+            transition={{duration:1, delay:0.2, type:easeInOut}}
+            viewport={{once:true}}
+            style={{height:'7rem',width:'7rem'}}  src={cssLogo} alt="" />
           </div>
           <div className="fourth-skills-card">
-            <img src={javascriptLogo} alt="" />
+            <motion.img
+            initial = {{
+              scale:0.2
+            }}
+            whileInView={{scale:1,rotate:360}}
+            transition={{duration:1, delay:0.2, type:easeInOut}}
+            viewport={{once:true}}
+            src={javascriptLogo} alt="" />
           </div>
-        </motion.div>
-        <motion.div
-        initial={{ opacity:0}}
-        whileInView={{  opacity:1 }}
-        transition={{ duration: 1,delay:0.4, type:easeInOut }}
-        viewport={{once:true}}
+        </div>
+        <div
+ 
         className="second-row">
         <div className="first-skills-card">
-<img style={{height:'7rem',width:'7rem'}}  src={reactLogo} alt="" />
+<motion.img
+initial = {{
+  scale:0.2
+}}
+whileInView={{scale:1,rotate:-360}}
+transition={{duration:1, delay:0.2, type:easeInOut}}
+viewport={{once:true}}
+style={{height:'7rem',width:'7rem'}}  src={reactLogo} alt="" />
         </div>
           <div className="second-skills-card">
-            <img style={{height:'7rem',width:'7rem'}}  src={nextjsLogo} alt="" />
+            <motion.img
+            initial = {{
+              scale:0.2
+            }}
+            whileInView={{scale:1,rotate:-360}}
+            transition={{duration:1, delay:0.2, type:easeInOut}}
+            viewport={{once:true}}
+            style={{height:'7rem',width:'7rem'}}  src={nextjsLogo} alt="" />
           </div>
           <div className="third-skills-card">
-            <img src={nodejsLogo} alt="" />
+            <motion.img
+            initial = {{
+              scale:0.2
+            }}
+            whileInView={{scale:1,rotate:-360}}
+            transition={{duration:1, delay:0.2, type:easeInOut}}
+            viewport={{once:true}}
+            src={nodejsLogo} alt="" />
           </div>
           <div className="fourth-skills-card">
-            <img style={{height:'11rem',width:'11rem'}} src={mongodbLogo} alt="" />
+            <motion.img
+            initial = {{
+              scale:0.2
+            }}
+            whileInView={{scale:1,rotate:-360}}
+            transition={{duration:1, delay:0.2, type:easeInOut}}
+            viewport={{once:true}}
+            style={{height:'11rem',width:'11rem'}} src={mongodbLogo} alt="" />
           </div>
-        </motion.div>
-        <motion.div
-        initial={{ opacity:0}}
-        whileInView={{  opacity:1 }}
-        transition={{ duration: 1,delay:0.6, type:easeInOut }}
-        viewport={{once:true}}
+        </div>
+        <div
         className="third-row">
         <div className="first-skills-card">
-          <img style={{height:'7rem',width:'7rem'}}  src={framerLogo} alt="" />
+          <motion.img
+          initial = {{
+            scale:0.2
+          }}
+          whileInView={{scale:1,rotate:360}}
+          transition={{duration:1, delay:0.2, type:easeInOut}}
+          viewport={{once:true}}
+          style={{height:'7rem',width:'7rem'}}  src={framerLogo} alt="" />
         </div>
           <div className="second-skills-card">
-            <img style={{borderRadius:'50%',height:'7rem',width:'7rem'}} src={gsapLogo} alt="" />
+            <motion.img 
+            initial = {{
+              scale:0.2
+            }}
+            whileInView={{scale:1,rotate:360}}
+            transition={{duration:1, delay:0.2, type:easeInOut}}
+            viewport={{once:true}}
+            style={{borderRadius:'50%',height:'7rem',width:'7rem'}} src={gsapLogo} alt="" />
           </div>
           <div className="third-skills-card">
-            <img style={{height:'6rem',width:'6rem'}} src={bootstrapLogo} alt="" />
+            <motion.img
+            initial = {{
+              scale:0.2
+            }}
+            whileInView={{scale:1,rotate:360}}
+            transition={{duration:1, delay:0.2, type:easeInOut}}
+            viewport={{once:true}}
+            style={{height:'6rem',width:'6rem'}} src={bootstrapLogo} alt="" />
           </div>
           <div className="fourth-skills-card">
-            <img src={tailwindLogo} alt="" />
+            <motion.img
+            initial = {{
+              scale:0.2
+            }}
+            whileInView={{scale:1,rotate:360}}
+            transition={{duration:1, delay:0.2, type:easeInOut}}
+            viewport={{once:true}}
+            src={tailwindLogo} alt="" />
           </div>
-        </motion.div>
+        </div>
+      </div>
       </div>
     </section>
   );

@@ -14,6 +14,31 @@ const Projects = () => {
     const yyBackdrop = document.getElementsByClassName('yumyard-backdrop')[0];
     yyBackdrop.style.left = '0'
   }
+  const openEchoAIModalHandler = ()=>{
+    const echoAIModal = document.getElementsByClassName('echoai-modal')[0];
+    echoAIModal.style.left = '50%';
+    const eaiBackdrop = document.getElementsByClassName('echoai-backdrop')[0];
+    eaiBackdrop.style.left = '0'
+  }
+   
+  const openUrbanCropsHandler = ()=>{
+    const urbanCropsModal = document.getElementsByClassName('urbancrops-modal')[0];
+    urbanCropsModal.style.left = '50%';
+    const ucBackdrop = document.getElementsByClassName('urbancrops-backdrop')[0];
+    ucBackdrop.style.left = '0'
+  }
+  const scoopSavorHandler = ()=>{
+    const scoopSavor = document.getElementsByClassName('scoopsavor-modal')[0];
+    scoopSavor.style.left = '50%';
+    const scoopSavorBackdrop = document.getElementsByClassName('scoopsavor-backdrop')[0];
+    scoopSavorBackdrop.style.left = '0'
+  }
+ const blinkChatHandler = ()=>{
+  const blinkChat = document.getElementsByClassName('blinkchat-modal')[0];
+  blinkChat.style.left = '50%';
+  const blinkChatBackdrop = document.getElementsByClassName('blinkchat-backdrop')[0];
+  blinkChatBackdrop.style.left = '0'
+ }
   return (
     <section id="projects" className="projects-section">
       <div className="projects-container">
@@ -73,7 +98,7 @@ const Projects = () => {
 <h1>EchoAI</h1>
 <h2>Full stack AI friend developed in Next.js, MongoDB, and Auth0 authentication.</h2>
   <div>
-  <button className="know-more">Know more</button>
+  <button onClick={openEchoAIModalHandler} className="know-more">Know more</button>
   </div>
   </div>
   <div className="project-card-bottom">
@@ -113,7 +138,7 @@ className="project-card">
   
   </h2>
   <div>
-  <button className="know-more">Know more</button>
+  <button onClick={openUrbanCropsHandler} className="know-more">Know more</button>
   </div>
   </div>
   <div className="project-card-bottom">
@@ -150,7 +175,7 @@ className="project-card">
   
   </h2>
   <div>
-  <button className="know-more">Know more</button>
+  <button onClick={scoopSavorHandler} className="know-more">Know more</button>
   </div>
   </div>
   <div className="project-card-bottom">
@@ -189,7 +214,7 @@ className="project-card">
   
   </h2>
   <div>
-  <button className="know-more">Know more</button>
+  <button onClick={blinkChatHandler} className="know-more">Know more</button>
   </div>
   </div>
   <div className="project-card-bottom">
@@ -219,10 +244,11 @@ className="project-card">
   <div className="project-texts">
 <h1>Portfolio</h1>
   <h2>Front-End portfolio website made in React Js, Css, Framer-motion(for animations).
+ For form submission, it uses formspree.
   
   </h2>
   <div>
-  <button className="know-more">Know more</button>
+  {/* <button className="know-more">Know more</button> */}
   </div>
   </div>
   <div className="project-card-bottom">
@@ -249,8 +275,3 @@ className="project-card">
 
 export default Projects;
 
-
-  {/* <br />
-    core features - Payment gateway, automatic receipt generation, order cancellation, location fetching with maps, dynamic data visualisation.
-    <br />
-    Credentials - nv581339@gmail.com, 123456 */}
