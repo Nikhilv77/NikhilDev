@@ -23,9 +23,9 @@ const navbar = () => {
     <>
       <div onClick={hideMobileNavHandler} className="backdrop"></div>
       <motion.nav
-        initial={{ opacity:0,scale:0.7 }}
-        animate={{ scale:1,opacity:1 }}
-        transition={{ duration: 1, delay: 0.7, type: 'ease' }}
+        initial={{ x:100 }}
+        animate={{x:0 }}
+        transition={{ duration: 2.3, delay: 0.7, type: 'ease' }}
         viewport={{once:true}}
         className="desktop-nav"
       >
