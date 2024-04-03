@@ -24,6 +24,7 @@
   place-items: center;
   background-color: var(--secondary-color);
   padding: 1rem 0 1rem 0;
+  overflow: hidden;
 }
 .skills-container {
   width: 75vw;

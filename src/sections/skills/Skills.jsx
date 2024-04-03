@@ -21,35 +21,28 @@ const Skills = () => {
      
         <h1>Skills</h1>
         <div className="skills-container-container">
-      <div
- 
+      <motion.div
+      initial = {{
+       x:200,
+       filter:'hue-rotate(180deg)'
+      }}
+      whileInView={{x:0,filter:'hue-rotate(0)'}}
+      transition={{duration:3, type:easeInOut}}
+      viewport={{once:true}}
       className="skills-container">
      
         <div
    
         className="first-row">
           <div className="first-skills-card">
-             <motion.img
-             initial = {{
-              scale:0.2
-            }}
-            whileInView={{scale:1,rotate:360}}
-            transition={{duration:1, delay:0.2, type:easeInOut}}
-            viewport={{once:true}}
-             src={javaLogo} alt="" />
+             <img src={javaLogo} alt="" />
           </div>
           <div className="second-skills-card">
-            <motion.img
-            initial = {{
-              scale:0.2
-            }}
-            whileInView={{scale:1,rotate:360}}
-            transition={{duration:1, delay:0.2, type:easeInOut}}
-            viewport={{once:true}}
+            <img
             src={htmlLogo} alt="" />
           </div>
           <div className="third-skills-card">
-            <motion.img
+            <img
             initial = {{
               scale:0.2
             }}
@@ -59,7 +52,7 @@ const Skills = () => {
             style={{height:'7rem',width:'7rem'}}  src={cssLogo} alt="" />
           </div>
           <div className="fourth-skills-card">
-            <motion.img
+            <img
             initial = {{
               scale:0.2
             }}
@@ -73,7 +66,7 @@ const Skills = () => {
  
         className="second-row">
         <div className="first-skills-card">
-<motion.img
+<img
 initial = {{
   scale:0.2
 }}
@@ -83,80 +76,33 @@ viewport={{once:true}}
 style={{height:'7rem',width:'7rem'}}  src={reactLogo} alt="" />
         </div>
           <div className="second-skills-card">
-            <motion.img
-            initial = {{
-              scale:0.2
-            }}
-            whileInView={{scale:1,rotate:-360}}
-            transition={{duration:1, delay:0.2, type:easeInOut}}
-            viewport={{once:true}}
+            <img
+            
             style={{height:'7rem',width:'7rem'}}  src={nextjsLogo} alt="" />
           </div>
           <div className="third-skills-card">
-            <motion.img
-            initial = {{
-              scale:0.2
-            }}
-            whileInView={{scale:1,rotate:-360}}
-            transition={{duration:1, delay:0.2, type:easeInOut}}
-            viewport={{once:true}}
-            src={nodejsLogo} alt="" />
+            <img src={nodejsLogo} alt="" />
           </div>
           <div className="fourth-skills-card">
-            <motion.img
-            initial = {{
-              scale:0.2
-            }}
-            whileInView={{scale:1,rotate:-360}}
-            transition={{duration:1, delay:0.2, type:easeInOut}}
-            viewport={{once:true}}
-            style={{height:'11rem',width:'11rem'}} src={mongodbLogo} alt="" />
+            <img style={{height:'11rem',width:'11rem'}} src={mongodbLogo} alt="" />
           </div>
         </div>
         <div
         className="third-row">
         <div className="first-skills-card">
-          <motion.img
-          initial = {{
-            scale:0.2
-          }}
-          whileInView={{scale:1,rotate:360}}
-          transition={{duration:1, delay:0.2, type:easeInOut}}
-          viewport={{once:true}}
-          style={{height:'7rem',width:'7rem'}}  src={framerLogo} alt="" />
+          <img style={{height:'7rem',width:'7rem'}}  src={framerLogo} alt="" />
         </div>
           <div className="second-skills-card">
-            <motion.img 
-            initial = {{
-              scale:0.2
-            }}
-            whileInView={{scale:1,rotate:360}}
-            transition={{duration:1, delay:0.2, type:easeInOut}}
-            viewport={{once:true}}
-            style={{borderRadius:'50%',height:'7rem',width:'7rem'}} src={gsapLogo} alt="" />
+            <img style={{borderRadius:'50%',height:'7rem',width:'7rem'}} src={gsapLogo} alt="" />
           </div>
           <div className="third-skills-card">
-            <motion.img
-            initial = {{
-              scale:0.2
-            }}
-            whileInView={{scale:1,rotate:360}}
-            transition={{duration:1, delay:0.2, type:easeInOut}}
-            viewport={{once:true}}
-            style={{height:'6rem',width:'6rem'}} src={bootstrapLogo} alt="" />
+            <img style={{height:'6rem',width:'6rem'}} src={bootstrapLogo} alt="" />
           </div>
           <div className="fourth-skills-card">
-            <motion.img
-            initial = {{
-              scale:0.2
-            }}
-            whileInView={{scale:1,rotate:360}}
-            transition={{duration:1, delay:0.2, type:easeInOut}}
-            viewport={{once:true}}
-            src={tailwindLogo} alt="" />
+            <img src={tailwindLogo} alt="" />
           </div>
         </div>
-      </div>
+      </motion.div>
       </div>
     </section>
   );
