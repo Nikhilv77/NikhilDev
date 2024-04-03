@@ -16,6 +16,7 @@
   height: 100%;
   display: grid;
   place-items: center;
+  overflow: hidden;
 }
 .about-image img {
   height: 97%;
