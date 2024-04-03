@@ -13,17 +13,17 @@ export default function About() {
     <section id="about" className="about-section">
       <div className="about-container">
        <div className="about-image">
-        <motion.img initial = {{x:200,opacity:0}}
+        <motion.img initial = {{x:100,opacity:0}}
         whileInView={{x:0,opacity:1}}
         viewport={{once:true}}
-        transition={{duration:1.5, delay:0.5,type:'ease'}}
+        transition={{duration:1, delay:0.5,type:'ease'}}
         src={aboutImage} alt="" />
        </div>
        <motion.div
-       initial = {{opacity:0,x:-60}}
-       whileInView={{ opacity:1,x:0}}
+       initial = {{opacity:0}}
+       whileInView={{ opacity:1}}
        viewport={{once:true}}
-       transition={{duration:2.3, delay:0.5,type:'ease'}}
+       transition={{duration:1, delay:0.5,type:'ease'}}
        className="about-texts">
         <div>
         <h1>About me</h1>
