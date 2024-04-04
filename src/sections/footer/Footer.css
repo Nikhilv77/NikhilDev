@@ -166,3 +166,21 @@
   gap: 0.1rem;
 }
 }
+@media screen and (max-width: 317px) {
+  .cta-form > input {
+    padding: 0.3rem;
+    font-size: 0.8rem;
+  }
+  .cta-form > button {
+    padding: 0.41rem 0.6rem 0.41rem 0.6rem;
+    font-size: 0.8rem;
+  
+  }
+  .phone>span, .email > span {
+    font-size: 1.1rem;
+  }
+  .copyright>p {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}
