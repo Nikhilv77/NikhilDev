@@ -209,7 +209,7 @@ className="project-card">
 <video className="project-video" src={blinkChatVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 <div className="project-card-texts">
 <div className="project-texts">
-<h1>BlinkChat</h1>
+<h1>GingerChat</h1>
   <h2>Full stack Social media web app with Chat functionality. Made with React, express, mongodb.
   
   </h2>
