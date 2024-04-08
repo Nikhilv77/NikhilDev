@@ -12,6 +12,9 @@ import framerLogo from '../../assets/framer-motion-logo.webp';
 import gsapLogo from '../../assets/gsap-logo.png';
 import bootstrapLogo from '../../assets/bootstrap-logo.png';
 import tailwindLogo from '../../assets/tailwind-css-logo.svg';
+import githubLogo from '../../assets/github-logo.png'
+import dockerLogo from '../../assets/docker-logo.png'
+import awsLogo from '../../assets/aws-logo.png'
 import { easeInOut, motion } from "framer-motion";
 
 
@@ -99,7 +102,16 @@ style={{height:'7rem',width:'7rem'}}  src={reactLogo} alt="" />
             <img style={{height:'6rem',width:'6rem'}} src={bootstrapLogo} alt="" />
           </div>
           <div className="fourth-skills-card">
-            <img src={tailwindLogo} alt="" />
+            <img style={{height:'6rem',width:'6rem'}} src={githubLogo} alt="" />
+          </div>
+        </div>
+        <div
+        className="fourth-row">
+        <div className="first-skills-card">
+          <img style={{height:'7rem',width:'7rem'}}  src={dockerLogo} alt="" />
+        </div>
+          <div className="second-skills-card">
+            <img style={{height:'7rem',width:'9rem'}} src={awsLogo} alt="" />
           </div>
         </div>
       </motion.div>
