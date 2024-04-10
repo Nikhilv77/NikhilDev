@@ -11,7 +11,7 @@ import mongodbLogo from '../../assets/mongodb-logo.svg';
 import framerLogo from '../../assets/framer-motion-logo.webp';
 import gsapLogo from '../../assets/gsap-logo.png';
 import bootstrapLogo from '../../assets/bootstrap-logo.png';
-import tailwindLogo from '../../assets/tailwind-css-logo.svg';
+import socketIoLogo from '../../assets/socket-io-logo.png';
 import githubLogo from '../../assets/github-logo.png'
 import dockerLogo from '../../assets/docker-logo.png'
 import awsLogo from '../../assets/aws-logo.png'
@@ -93,25 +93,34 @@ style={{height:'7rem',width:'7rem'}}  src={reactLogo} alt="" />
         <div
         className="third-row">
         <div className="first-skills-card">
-          <img style={{height:'7rem',width:'7rem'}}  src={framerLogo} alt="" />
+        <img  src={socketIoLogo} alt="" />
         </div>
           <div className="second-skills-card">
-            <img style={{borderRadius:'50%',height:'7rem',width:'7rem'}} src={gsapLogo} alt="" />
+          <img style={{height:'7rem',width:'7rem'}}  src={framerLogo} alt="" />
+
           </div>
           <div className="third-skills-card">
-            <img style={{height:'6rem',width:'6rem'}} src={bootstrapLogo} alt="" />
+            <img style={{borderRadius:'50%',height:'7rem',width:'7rem'}} src={gsapLogo} alt="" />
+
           </div>
           <div className="fourth-skills-card">
-            <img style={{height:'6rem',width:'6rem'}} src={githubLogo} alt="" />
+            <img style={{height:'6rem',width:'6rem'}} src={bootstrapLogo} alt="" />
+
           </div>
         </div>
         <div
         className="fourth-row">
         <div className="first-skills-card">
-          <img style={{height:'7rem',width:'7rem'}}  src={dockerLogo} alt="" />
+          <img style={{height:'6rem',width:'6rem'}} src={githubLogo} alt="" />
+
         </div>
           <div className="second-skills-card">
-            <img style={{height:'7rem',width:'9rem'}} src={awsLogo} alt="" />
+          <img style={{height:'7rem',width:'7rem'}}  src={dockerLogo} alt="" />
+
+          </div>
+          <div className="third-skills-card">
+          <img style={{height:'7rem',width:'9rem'}} src={awsLogo} alt="" />
+
           </div>
         </div>
       </motion.div>
