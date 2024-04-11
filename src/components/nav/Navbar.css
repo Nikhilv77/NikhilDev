@@ -38,6 +38,7 @@ top: 0;
 .nav-items > ul > li {
   font-size: 1.3em;
   list-style: none;
+  cursor: pointer;
 }
 
 .nav-items > ul > li > a {
