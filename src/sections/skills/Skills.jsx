@@ -1,6 +1,10 @@
 import React from "react";
 import './Skills.css';
+
 import mongodbLogo from '../../assets/mongodb-logo.svg';
+
+import githubLogo from '../../assets/github-logo.png'
+
 import { easeInOut, motion } from "framer-motion";
 
 
