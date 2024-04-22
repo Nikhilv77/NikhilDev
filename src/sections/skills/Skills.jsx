@@ -1,20 +1,6 @@
 import React from "react";
 import './Skills.css';
-import javaLogo from '../../assets/java-logo.png'
-import htmlLogo from '../../assets/html-logo.png';
-import cssLogo from '../../assets/css-logo.png';
-import javascriptLogo from '../../assets/javascript-logo.webp';
-import reactLogo from '../../assets/react-logo.png';
-import nextjsLogo from '../../assets/nextjs-logo.png';
-import nodejsLogo from '../../assets/nodejs-logo.webp';
 import mongodbLogo from '../../assets/mongodb-logo.svg';
-import framerLogo from '../../assets/framer-motion-logo.webp';
-import gsapLogo from '../../assets/gsap-logo.png';
-import bootstrapLogo from '../../assets/bootstrap-logo.png';
-import socketIoLogo from '../../assets/socket-io-logo.png';
-import githubLogo from '../../assets/github-logo.png'
-import dockerLogo from '../../assets/docker-logo.png'
-import awsLogo from '../../assets/aws-logo.png'
 import { easeInOut, motion } from "framer-motion";
 
 
