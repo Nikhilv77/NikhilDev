@@ -27,7 +27,7 @@ const Skills = () => {
       <motion.div
       initial = {{
        x:200,
-       filter:'hue-rotate(180deg)'
+       filter:'hue-rotate(360deg)'
       }}
       whileInView={{x:0,filter:'hue-rotate(0)'}}
       transition={{duration:3, type:easeInOut}}
@@ -38,11 +38,11 @@ const Skills = () => {
    
         className="first-row">
           <div className="first-skills-card">
-             <img src={javaLogo} alt="" />
+             <img src='https://i.postimg.cc/zfkr1rYq/java-logo.png' alt="" />
           </div>
           <div className="second-skills-card">
             <img
-            src={htmlLogo} alt="" />
+            src='https://i.postimg.cc/pLzvqj0h/html-logo.png' alt="" />
           </div>
           <div className="third-skills-card">
             <img
@@ -52,7 +52,7 @@ const Skills = () => {
             whileInView={{scale:1,rotate:360}}
             transition={{duration:1, delay:0.2, type:easeInOut}}
             viewport={{once:true}}
-            style={{height:'7rem',width:'7rem'}}  src={cssLogo} alt="" />
+            style={{height:'7rem',width:'7rem'}}  src='https://i.postimg.cc/QxRsQmqZ/css-logo.png' alt="" />
           </div>
           <div className="fourth-skills-card">
             <img
@@ -62,7 +62,7 @@ const Skills = () => {
             whileInView={{scale:1,rotate:360}}
             transition={{duration:1, delay:0.2, type:easeInOut}}
             viewport={{once:true}}
-            src={javascriptLogo} alt="" />
+            src='https://i.postimg.cc/4yYktH73/javascript-logo.webp' alt="" />
           </div>
         </div>
         <div
@@ -76,15 +76,15 @@ initial = {{
 whileInView={{scale:1,rotate:-360}}
 transition={{duration:1, delay:0.2, type:easeInOut}}
 viewport={{once:true}}
-style={{height:'7rem',width:'7rem'}}  src={reactLogo} alt="" />
+style={{height:'7rem',width:'7rem'}}  src='https://i.postimg.cc/HLdqzhcR/react-logo.png' alt="" />
         </div>
           <div className="second-skills-card">
             <img
             
-            style={{height:'7rem',width:'7rem'}}  src={nextjsLogo} alt="" />
+            style={{height:'7rem',width:'7rem'}}  src='https://i.postimg.cc/CK7WQsb1/nextjs-logo.png' alt="" />
           </div>
           <div className="third-skills-card">
-            <img src={nodejsLogo} alt="" />
+            <img src='https://i.postimg.cc/W3fx2pWc/nodejs-logo.webp' alt="" />
           </div>
           <div className="fourth-skills-card">
             <img style={{height:'11rem',width:'11rem'}} src={mongodbLogo} alt="" />
@@ -93,18 +93,18 @@ style={{height:'7rem',width:'7rem'}}  src={reactLogo} alt="" />
         <div
         className="third-row">
         <div className="first-skills-card">
-        <img  src={socketIoLogo} alt="" />
+        <img  src='https://i.postimg.cc/FFYH0YQc/socket-io-logo.png' alt="" />
         </div>
           <div className="second-skills-card">
-          <img style={{height:'7rem',width:'7rem'}}  src={framerLogo} alt="" />
+          <img style={{height:'7rem',width:'7rem'}}  src='https://i.postimg.cc/0jSvFJ8B/framer-motion-logo.webp' alt="" />
 
           </div>
           <div className="third-skills-card">
-            <img style={{borderRadius:'50%',height:'7rem',width:'7rem'}} src={gsapLogo} alt="" />
+            <img style={{borderRadius:'50%',height:'7rem',width:'7rem'}} src='https://i.postimg.cc/2S7kCv4p/gsap-logo.png' alt="" />
 
           </div>
           <div className="fourth-skills-card">
-            <img style={{height:'6rem',width:'6rem'}} src={bootstrapLogo} alt="" />
+            <img style={{height:'6rem',width:'6rem'}} src='https://i.postimg.cc/Y2Dt9MG9/bootstrap-logo.png' alt="" />
 
           </div>
         </div>
@@ -115,11 +115,11 @@ style={{height:'7rem',width:'7rem'}}  src={reactLogo} alt="" />
 
         </div>
           <div className="second-skills-card">
-          <img style={{height:'7rem',width:'7rem'}}  src={dockerLogo} alt="" />
+          <img style={{height:'7rem',width:'7rem'}}  src='https://i.postimg.cc/yYJs3tcT/docker-logo.png' alt="" />
 
           </div>
           <div className="third-skills-card">
-          <img style={{height:'7rem',width:'9rem'}} src={awsLogo} alt="" />
+          <img style={{height:'7rem',width:'9rem'}} src='https://i.postimg.cc/SRP4tfF8/aws-logo.png' alt="" />
 
           </div>
         </div>
