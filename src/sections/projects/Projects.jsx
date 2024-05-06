@@ -5,8 +5,10 @@ import urbanCropsVideo from '../../assets/uc.mp4';
 import yumyardVideo from '../../assets/Yumyard.mp4';
 import scoopSavorVideo from '../../assets/ss.mp4';
 import portfolioVideo from '../../assets/portfolio-video.mp4';
-import blinkChatVideo from '../../assets/blinkchat-video.mp4'
+import blinkChatVideo from '../../assets/gc-video.mp4';
+import iShowcaseVideo from '../../assets/ishowcase.mp4'
 import {easeInOut, motion} from 'framer-motion';
+
 const Projects = () => {
   const openYumyardModalHandler = ()=>{
     const yyModal = document.getElementsByClassName('yumyard-modal')[0];
@@ -83,6 +85,42 @@ const Projects = () => {
 </div>
       </motion.div>
       <motion.div
+initial = {{
+  rotate:15,
+  filter:'grayscale(100%)'
+}}
+whileInView={{rotate:0,filter:'grayscale(0)'}}
+transition={{type:easeInOut, duration:1, delay:0.5}}
+viewport={{once:true}}
+className="project-card">
+<video className="project-video" src={blinkChatVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
+<div className="project-card-texts">
+<div className="project-texts">
+<h1>GingerChat</h1>
+  <h2>Full stack Social media web app with Chat functionality. Made with React, express, mongodb.
+  
+  </h2>
+  <div>
+  <button onClick={blinkChatHandler} className="know-more">Know more</button>
+  </div>
+  </div>
+  <div className="project-card-bottom">
+  <div className="project-card-links">
+  <i class="ri-github-line"></i>
+    <span>Source code</span>
+    
+  </div>
+  <div className="project-card-links">
+    <i class="ri-global-line"></i>
+    <span>Live demo</span>
+  </div>
+</div>
+</div>
+</motion.div>
+      
+        </div>
+        <div className="second-card-container">
+        <motion.div
       initial = {{
         rotate:15,
         filter:'grayscale(100%)'
@@ -118,9 +156,84 @@ const Projects = () => {
 </div>
 </div>
       </motion.div>
+      <motion.div
+initial = {{
+  rotate:15,
+  filter:'grayscale(100%)'
+}}
+whileInView={{rotate:0,filter:'grayscale(0)'}}
+transition={{type:easeInOut, duration:1, delay:0.5}}
+viewport={{once:true}}
+className="project-card">
+<video className="project-video" src={iShowcaseVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
+<div className="project-card-texts">
+  <div className="project-texts">
+<h1>iShowcase</h1>
+  <h2>Front-End portfolio website made in React Js, Css, Framer-motion(for animations).
+ This website is showcase for iphones.
+  
+  </h2>
+  <div>
+  {/* <button className="know-more">Know more</button> */}
+  </div>
+  </div>
+  <div className="project-card-bottom">
+  <div onClick={()=>{
+    window.open('https://github.com/Nikhilv77/iShowcase')
+  }} className="project-card-links">
+  <i class="ri-github-line"></i>
+    <span>Source code</span>
+  </div>
+  <div onClick={()=>{
+    window.open('https://ishowcase.vercel.app/')
+  }} className="project-card-links">
+    <i class="ri-global-line"></i>
+    <span>Live demo</span>
+  </div>
+</div>
+</div>
+</motion.div>
+
         </div>
-        <div className="second-card-container">
-<motion.div
+        <div className="third-card-container"> 
+        <motion.div
+initial = {{
+  rotate:15,
+  filter:'grayscale(100%)'
+}}
+whileInView={{rotate:0,filter:'grayscale(0)'}}
+transition={{type:easeInOut, duration:1, delay:0.5}}
+viewport={{once:true}}
+className="project-card">
+<video className="project-video" src={scoopSavorVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
+<div className="project-card-texts">
+<div className="project-texts">
+<h1>ScoopSavor</h1>
+  <h2>Front-End Animated Ice cream Website made in React, Gsap and Framer motion.
+  
+  </h2>
+  <div>
+  <button onClick={scoopSavorHandler} className="know-more">Know more</button>
+  </div>
+  </div>
+  <div className="project-card-bottom">
+  <div onClick={()=>{
+    window.open('https://github.com/Nikhilv77/ScoopSavor')
+  }} className="project-card-links">
+  <i class="ri-github-line"></i>
+    <span>Source code</span>
+    
+  </div>
+  <div onClick={()=>{
+    window.open('https://scoop-savor.vercel.app/')
+  }} className="project-card-links">
+    <i class="ri-global-line"></i>
+    <span>Live demo</span>
+  </div>
+</div>
+</div>
+</motion.div>
+        <motion.div
 initial = {{
   rotate:15,
   filter:'grayscale(100%)'
@@ -158,79 +271,11 @@ className="project-card">
 </div>
 </div>
 </motion.div>
-<motion.div
-initial = {{
-  rotate:15,
-  filter:'grayscale(100%)'
-}}
-whileInView={{rotate:0,filter:'grayscale(0)'}}
-transition={{type:easeInOut, duration:1, delay:0.5}}
-viewport={{once:true}}
-className="project-card">
-<video className="project-video" src={scoopSavorVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
-<div className="project-card-texts">
-<div className="project-texts">
-<h1>ScoopSavor</h1>
-  <h2>Front-End Animated Ice cream Website made in React, Gsap and Framer motion.
-  
-  </h2>
-  <div>
-  <button onClick={scoopSavorHandler} className="know-more">Know more</button>
-  </div>
-  </div>
-  <div className="project-card-bottom">
-  <div onClick={()=>{
-    window.open('https://github.com/Nikhilv77/ScoopSavor')
-  }} className="project-card-links">
-  <i class="ri-github-line"></i>
-    <span>Source code</span>
-    
-  </div>
-  <div onClick={()=>{
-    window.open('https://scoop-savor.vercel.app/')
-  }} className="project-card-links">
-    <i class="ri-global-line"></i>
-    <span>Live demo</span>
-  </div>
-</div>
-</div>
-</motion.div>
+
+
         </div>
-        <div className="third-card-container"> 
-<motion.div
-initial = {{
-  rotate:15,
-  filter:'grayscale(100%)'
-}}
-whileInView={{rotate:0,filter:'grayscale(0)'}}
-transition={{type:easeInOut, duration:1, delay:0.5}}
-viewport={{once:true}}
-className="project-card">
-<video className="project-video" src={blinkChatVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
-<div className="project-card-texts">
-<div className="project-texts">
-<h1>GingerChat</h1>
-  <h2>Full stack Social media web app with Chat functionality. Made with React, express, mongodb.
-  
-  </h2>
-  <div>
-  <button onClick={blinkChatHandler} className="know-more">Know more</button>
-  </div>
-  </div>
-  <div className="project-card-bottom">
-  <div className="project-card-links">
-  <i class="ri-github-line"></i>
-    <span>Source code</span>
-    
-  </div>
-  <div className="project-card-links">
-    <i class="ri-global-line"></i>
-    <span>Live demo</span>
-  </div>
-</div>
-</div>
-</motion.div>
-<motion.div
+        <div className="fourth-card-container"> 
+        <motion.div
 initial = {{
   rotate:15,
   filter:'grayscale(100%)'
@@ -267,6 +312,7 @@ className="project-card">
 </div>
 </div>
 </motion.div>
+
         </div>
       </div>
     </section>

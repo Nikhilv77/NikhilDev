@@ -15,11 +15,11 @@ const BlinkChatModal = () => {
   <div className="blinkchat-modal-container">
     <div className="blinkchat-features">
       <h2>This is a social media platform Made with React, Vanilla css, Express Js, Mongodb.</h2>
-      <h2>Core features - Add a friend, Remove a friend, make a post, like a post, delete a post, send friend requests, chat with friends.
+      <h2>Core features - OTP verification for signup and forgot password, everything in real time like Add a friend, Remove a friend, make a post, like a post, comment a post, delete a post, send friend requests, decline/accept friend request, edit profile, real time chat with friends.
       </h2>
     </div>
     <div className="blinkchat-credentials">
-      <h2> Credentials - nikhilv7@yahoo.com, Nikhil123@</h2>
+      <h2> Credentials - nykhilverma@gmail.com, 123456</h2>
     </div>
   </div>
   </div>
