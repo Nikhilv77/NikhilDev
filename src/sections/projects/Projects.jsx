@@ -105,12 +105,16 @@ className="project-card">
   </div>
   </div>
   <div className="project-card-bottom">
-  <div className="project-card-links">
+  <div onClick={()=>{
+    window.open('https://github.com/Nikhilv77/gingerchat-fullstack')
+  }} className="project-card-links">
   <i class="ri-github-line"></i>
     <span>Source code</span>
     
   </div>
-  <div className="project-card-links">
+  <div onClick={()=>{
+    window.open('https://gingerchat.vercel.app/')
+  }} className="project-card-links">
     <i class="ri-global-line"></i>
     <span>Live demo</span>
   </div>
