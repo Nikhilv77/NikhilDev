@@ -57,7 +57,7 @@ const Projects = () => {
       className="project-card">
   <div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>
       <iframe
-      src="https://player.vimeo.com/video/943291448?badge=0&amp;autoplay=1&amp;muted=1&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+      src="https://player.vimeo.com/video/943291448?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         frameBorder="0"
         allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
         style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}
@@ -103,7 +103,7 @@ viewport={{once:true}}
 className="project-card">
  <div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>
       <iframe
-        src="https://player.vimeo.com/video/943289305?badge=0&amp;autoplay=1&amp;muted=1&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        src="https://player.vimeo.com/video/943289305?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         frameBorder="0"
         allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
         style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}
@@ -152,7 +152,7 @@ className="project-card">
  
  <div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>
       <iframe
-src="https://player.vimeo.com/video/943294135?badge=0&amp;autoplay=1&amp;muted=1&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+src="https://player.vimeo.com/video/943294135?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
         frameBorder="0"
         allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
         style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}
@@ -235,7 +235,7 @@ viewport={{once:true}}
 className="project-card">
 <div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>
       <iframe
-src="https://player.vimeo.com/video/943293450?badge=0&amp;autoplay=1&amp;muted=1&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+src="https://player.vimeo.com/video/943293450?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         frameBorder="0"
         allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
         style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}
@@ -280,7 +280,7 @@ viewport={{once:true}}
 className="project-card">
 <div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>
       <iframe
-src="https://player.vimeo.com/video/943294837?badge=0&amp;autoplay=1&amp;muted=1&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+src="https://player.vimeo.com/video/943294837?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         frameBorder="0"
         allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
         style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}
@@ -330,7 +330,7 @@ viewport={{once:true}}
 className="project-card">
 <div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>
       <iframe
-src="https://player.vimeo.com/video/943295551?badge=0&amp;autoplay=1&amp;muted=1&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+src="https://player.vimeo.com/video/943295551?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         frameBorder="0"
         allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
         style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}
