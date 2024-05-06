@@ -55,7 +55,15 @@ const Projects = () => {
       transition={{type:easeInOut, duration:1, delay:0.5}}
       viewport={{once:true}}
       className="project-card">
-      <video className="project-video" src={yumyardVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
+  <div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>
+      <iframe
+      src="https://player.vimeo.com/video/943291448?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        frameBorder="0"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+        style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}
+        title="gc-video"
+      ></iframe>
+    </div>
 
 <div className="project-card-texts">
 <div className="project-texts">
@@ -93,7 +101,15 @@ whileInView={{rotate:0,filter:'grayscale(0)'}}
 transition={{type:easeInOut, duration:1, delay:0.5}}
 viewport={{once:true}}
 className="project-card">
-<video className="project-video" src={blinkChatVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
+ <div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>
+      <iframe
+        src="https://player.vimeo.com/video/943289305?badge=0&amp;autoplay=1&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        frameBorder="0"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+        style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}
+        title="gc-video"
+      ></iframe>
+    </div>
 <div className="project-card-texts">
 <div className="project-texts">
 <h1>GingerChat</h1>
@@ -134,7 +150,15 @@ className="project-card">
       viewport={{once:true}}
       className="project-card">
  
-      <video className="project-video" src={echoAIVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
+ <div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>
+      <iframe
+src="https://player.vimeo.com/video/943294135?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+        frameBorder="0"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+        style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}
+        title="gc-video"
+      ></iframe>
+    </div>
 <div className="project-card-texts">
 <div className="project-texts">
 <h1>EchoAI</h1>
@@ -209,7 +233,15 @@ whileInView={{rotate:0,filter:'grayscale(0)'}}
 transition={{type:easeInOut, duration:1, delay:0.5}}
 viewport={{once:true}}
 className="project-card">
-<video className="project-video" src={scoopSavorVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
+<div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>
+      <iframe
+src="https://player.vimeo.com/video/943293450?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        frameBorder="0"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+        style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}
+        title="gc-video"
+      ></iframe>
+    </div>
 <div className="project-card-texts">
 <div className="project-texts">
 <h1>ScoopSavor</h1>
@@ -246,7 +278,15 @@ whileInView={{rotate:0,filter:'grayscale(0)'}}
 transition={{type:easeInOut, duration:1, delay:0.5}}
 viewport={{once:true}}
 className="project-card">
-<video className="project-video" src={urbanCropsVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
+<div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>
+      <iframe
+src="https://player.vimeo.com/video/943294837?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        frameBorder="0"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+        style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}
+        title="gc-video"
+      ></iframe>
+    </div>
 
 <div className="project-card-texts">
 <div className="project-texts">
@@ -288,7 +328,15 @@ whileInView={{rotate:0,filter:'grayscale(0)'}}
 transition={{type:easeInOut, duration:1, delay:0.5}}
 viewport={{once:true}}
 className="project-card">
-<video className="project-video" src={portfolioVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
+<div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>
+      <iframe
+src="https://player.vimeo.com/video/943295551?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        frameBorder="0"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+        style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}
+        title="gc-video"
+      ></iframe>
+    </div>
 <div className="project-card-texts">
   <div className="project-texts">
 <h1>Portfolio</h1>
