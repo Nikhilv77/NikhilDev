@@ -162,7 +162,7 @@ src="https://player.vimeo.com/video/943294135?badge=0&amp;autopause=0&amp;player
 <div className="project-card-texts">
 <div className="project-texts">
 <h1>EchoAI</h1>
-<h2>Full stack AI friend developed in Next.js, MongoDB, and Auth0 authentication.</h2>
+<h2>{`Full stack AI friend developed in Next.js, MongoDB, and Auth0 authentication. (This project currently may not work because the API credits might have ended)`}</h2>
   <div>
   <button onClick={openEchoAIModalHandler} className="know-more">Know more</button>
   </div>
