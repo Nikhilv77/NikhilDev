@@ -4,7 +4,6 @@ import './About.css'
 import {motion} from 'framer-motion'
 import resume from '../../assets/Nikhil_Verma_Resume.pdf'
 
-
 export default function About() {
   const downloadResume = ()=>{
     window.open(resume)
