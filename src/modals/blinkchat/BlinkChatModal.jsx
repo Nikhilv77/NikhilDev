@@ -14,7 +14,7 @@ const BlinkChatModal = () => {
   <i onClick={closeModalHandler} class="ri-close-line"></i>
   <div className="blinkchat-modal-container">
     <div className="blinkchat-features">
-      <h2>This is a social media platform Made with React, Vanilla css, Express Js, Mongodb.</h2>
+      <h2>This is a social media platform Made with Socket.IO, React, Vanilla css, Express Js, Mongodb.</h2>
       <h2>Core features - OTP verification for signup and forgot password, everything in real time like Add a friend, Remove a friend, make a post, like a post, comment a post, delete a post, send friend requests, decline/accept friend request, edit profile, real time chat with friends.
       </h2>
     </div>

@@ -113,7 +113,7 @@ className="project-card">
 <div className="project-card-texts">
 <div className="project-texts">
 <h1>GingerChat</h1>
-  <h2>Full stack Social media web app with Chat functionality. Made with React, express, mongodb.
+  <h2>Full stack Social media web app with Chat functionality. Made with Socket.IO, React, express, mongodb.
   
   </h2>
   <div>
