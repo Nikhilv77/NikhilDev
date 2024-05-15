@@ -3,7 +3,7 @@ import './Navbar.css'
 import n from '../../assets/n.png'
 import { motion } from 'framer-motion'
 import { Link } from 'react-scroll';
-import resume from '../../assets/Resume.pdf'
+import resume from '../../assets/Nikhil_Verma_Resume.pdf'
 
 const navbar = () => {
   const showMobileNavHandler = () => {
