@@ -197,7 +197,7 @@ className="project-card">
 <div className="project-card-texts">
   <div className="project-texts">
 <h1>iShowcase</h1>
-  <h2>Front-End portfolio website made in React Js, Css, Framer-motion(for animations).
+  <h2>Front-End website made in React Js, Css, Framer-motion(for animations).
  This website is showcase for iphones.
   
   </h2>
