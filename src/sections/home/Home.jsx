@@ -19,7 +19,7 @@ export default function Home(){
       window.open('https://github.com/Nikhilv77')
      }} class="ri-github-fill"></i>
      <i onClick={()=>{
-      window.open('https://www.linkedin.com/in/nikhil-verma-051696176/')
+      window.open('https://www.linkedin.com/in/nikhilverma95')
      }} class="ri-linkedin-box-fill"></i>
   
      </div>
