@@ -39,7 +39,7 @@
   border-bottom: 3px solid var(--text-color);
   justify-self: start;
 }
-.about-texts > div > h2 {
+.about-texts > div > p  {
   font-size: 1.4rem;
   color: var(--secondary-text-color);
   line-height: 1.6;
@@ -91,7 +91,7 @@
   }
 }
 @media screen and (max-width: 855px) {
-  .about-texts > h2 {
+  .about-texts > p {
     font-size: 1.3rem;
   }
 }
@@ -129,7 +129,7 @@
     font-size: 2rem !important;
     justify-self: center;
   }
-  .about-texts > div > h2 {
+  .about-texts > div > p {
     justify-self: center;
     text-align: center;
     font-size: 1.2rem !important;

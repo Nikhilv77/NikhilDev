@@ -1,6 +1,6 @@
 import React from "react";
 import './Home.css'
-import image from '../../assets/image.webp'
+import image from '../../assets/my-new-image.jpg'
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 
@@ -12,8 +12,8 @@ export default function Home(){
       animate = {{opacity:1}}
       transition={{duration : 1,delay:0.5, type : 'ease'}} className="hero-texts">
       <div className="headings">
-     <h1>Full Stack Web Developer 👋🏼</h1>
-     <h3>Hey there, I'm Nikhil Verma, a full stack developer from Mumbai, India, who loves building cool stuff! checkout the links👇🏼</h3>
+     <h1>Full Stack Developer 👋🏼</h1>
+     <p>Hey there, I'm Nikhil Verma, a full stack developer from Mumbai, India, who loves building cool stuff! checkout the links👇🏼</p>
      <div className = "links">
      <i onClick={()=>{
       window.open('https://github.com/Nikhilv77')

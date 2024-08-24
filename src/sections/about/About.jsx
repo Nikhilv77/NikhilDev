@@ -27,7 +27,7 @@ export default function About() {
         <div>
         <h1>About me</h1>
     
-<h2>Hey, I'm Nikhil Verma, a driven engineer with a strong foundation in Electronics and Computer Science. Graduating with a 9.3 CGPA from Pillai College of Engineering, Panvel, I've always had a knack for diving deep into technology and uncovering its potential. As a tech enthusiast, I thrive on the thrill of building things from scratch.</h2>
+<p>Hey, I'm Nikhil Verma, a driven engineer with a strong foundation in Electronics and Computer Science. Graduating with a 9.3 CGPA from Pillai College of Engineering, Panvel, I've always had a knack for diving deep into technology and uncovering its potential. As a tech enthusiast, I thrive on the thrill of building things from scratch.</p>
        <button onClick={downloadResume}>Resume</button> 
         </div>
        </motion.div>

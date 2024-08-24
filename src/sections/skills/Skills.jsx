@@ -7,7 +7,6 @@ import githubLogo from '../../assets/github-logo.png'
 
 import { easeInOut, motion } from "framer-motion";
 
-
 const Skills = () => {
   return(
     <section id="skills" className="skills-section">
@@ -86,15 +85,15 @@ style={{height:'7rem',width:'7rem'}}  src='https://i.postimg.cc/HLdqzhcR/react-l
         <img  src='https://i.postimg.cc/FFYH0YQc/socket-io-logo.png' alt="" />
         </div>
           <div className="second-skills-card">
-          <img style={{height:'7rem',width:'7rem'}}  src='https://i.postimg.cc/0jSvFJ8B/framer-motion-logo.webp' alt="" />
+          <img style={{height:'7rem',width:'7rem'}}  src='https://i.postimg.cc/yYJs3tcT/docker-logo.png' alt="" />
 
           </div>
           <div className="third-skills-card">
-            <img style={{borderRadius:'50%',height:'7rem',width:'7rem'}} src='https://i.postimg.cc/2S7kCv4p/gsap-logo.png' alt="" />
+          <img style={{height:'9rem',width:'11rem'}} src='https://i.postimg.cc/Px7RSbJm/nginx-logo.png' alt="" />
 
           </div>
           <div className="fourth-skills-card">
-            <img style={{height:'6rem',width:'6rem'}} src='https://i.postimg.cc/Y2Dt9MG9/bootstrap-logo.png' alt="" />
+          <img style={{height:'9rem',width:'11rem'}} src='https://i.postimg.cc/FKDqLXQC/gcp-logo.png' alt="" />
 
           </div>
         </div>
@@ -105,11 +104,17 @@ style={{height:'7rem',width:'7rem'}}  src='https://i.postimg.cc/HLdqzhcR/react-l
 
         </div>
           <div className="second-skills-card">
-          <img style={{height:'7rem',width:'7rem'}}  src='https://i.postimg.cc/yYJs3tcT/docker-logo.png' alt="" />
+          <img style={{height:'7.5rem',width:'7.5rem'}}  src='https://i.postimg.cc/yYjr5zD1/postman-logo.webp' alt="" />
 
           </div>
           <div className="third-skills-card">
-          <img style={{height:'7rem',width:'9rem'}} src='https://i.postimg.cc/SRP4tfF8/aws-logo.png' alt="" />
+        
+          <img style={{height:'7rem',width:'11rem'}} src='https://i.postimg.cc/JhvFqcGj/jira-logo.png' alt="" />
+
+          </div>
+          <div className="fourth-skills-card">
+          <img style={{height:'6rem',width:'6rem'}} src='https://i.postimg.cc/Y2Dt9MG9/bootstrap-logo.png' alt="" />
+         
 
           </div>
         </div>

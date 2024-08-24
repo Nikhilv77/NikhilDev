@@ -45,7 +45,7 @@ top: 0;
   text-decoration: none;
   color: var(--secondary-text-color);
   /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); */
-  font-weight: 700;
+  font-weight: 600;
   padding: 1rem;
 }
 .nav-items > ul > li > a:hover {
