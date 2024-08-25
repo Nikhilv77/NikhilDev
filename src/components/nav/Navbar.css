@@ -36,7 +36,7 @@ top: 0;
   gap: 1em;
 }
 .nav-items > ul > li {
-  font-size: 1.3em;
+  font-size: 1.2em;
   list-style: none;
   cursor: pointer;
 }
@@ -59,7 +59,7 @@ top: 0;
 }
 .nav-items > a>button {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.2em;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -113,7 +113,7 @@ top: 0;
   top: 2%;
   right: 3%;
   position: absolute;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: var(--primary-color);
   filter: drop-shadow(1.5px 1.5px 1.5px rgba(0, 0, 0, 1));
   cursor: pointer;
@@ -129,7 +129,7 @@ top: 0;
   gap: 2em;
 }
 .mobile-nav-items > ul > li {
-  font-size: 1.4em;
+  font-size: 1.3em;
   list-style: none;
 }
 
@@ -146,7 +146,7 @@ top: 0;
 
 .mobile-nav-items > a>button {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.4em;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -173,7 +173,7 @@ top: 0;
     padding: 0.5em 1em 0.5em 1em;
   }
   .logo > h1 {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
 }
 @media screen and (max-width:768px){

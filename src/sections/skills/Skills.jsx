@@ -41,7 +41,7 @@ const Skills = () => {
             whileInView={{scale:1,rotate:360}}
             transition={{duration:1, delay:0.2, type:easeInOut}}
             viewport={{once:true}}
-            style={{height:'7rem',width:'7rem'}}  src='https://i.postimg.cc/QxRsQmqZ/css-logo.png' alt="" />
+            style={{height:'5rem',width:'5rem'}}  src='https://i.postimg.cc/QxRsQmqZ/css-logo.png' alt="" />
           </div>
           <div className="fourth-skills-card">
             <img
@@ -65,18 +65,18 @@ initial = {{
 whileInView={{scale:1,rotate:-360}}
 transition={{duration:1, delay:0.2, type:easeInOut}}
 viewport={{once:true}}
-style={{height:'7rem',width:'7rem'}}  src='https://i.postimg.cc/HLdqzhcR/react-logo.png' alt="" />
+style={{height:'5rem',width:'5rem'}}  src='https://i.postimg.cc/HLdqzhcR/react-logo.png' alt="" />
         </div>
           <div className="second-skills-card">
             <img
             
-            style={{height:'7rem',width:'7rem'}}  src='https://i.postimg.cc/CK7WQsb1/nextjs-logo.png' alt="" />
+            style={{height:'5rem',width:'5rem'}}  src='https://i.postimg.cc/CK7WQsb1/nextjs-logo.png' alt="" />
           </div>
           <div className="third-skills-card">
             <img src='https://i.postimg.cc/W3fx2pWc/nodejs-logo.webp' alt="" />
           </div>
           <div className="fourth-skills-card">
-            <img style={{height:'11rem',width:'11rem'}} src={mongodbLogo} alt="" />
+            <img style={{height:'9rem',width:'9rem'}} src={mongodbLogo} alt="" />
           </div>
         </div>
         <div
@@ -85,35 +85,35 @@ style={{height:'7rem',width:'7rem'}}  src='https://i.postimg.cc/HLdqzhcR/react-l
         <img  src='https://i.postimg.cc/FFYH0YQc/socket-io-logo.png' alt="" />
         </div>
           <div className="second-skills-card">
-          <img style={{height:'7rem',width:'7rem'}}  src='https://i.postimg.cc/yYJs3tcT/docker-logo.png' alt="" />
+          <img style={{height:'5rem',width:'5rem'}}  src='https://i.postimg.cc/yYJs3tcT/docker-logo.png' alt="" />
 
           </div>
           <div className="third-skills-card">
-          <img style={{height:'9rem',width:'11rem'}} src='https://i.postimg.cc/Px7RSbJm/nginx-logo.png' alt="" />
+          <img style={{height:'7rem',width:'9rem'}} src='https://i.postimg.cc/Px7RSbJm/nginx-logo.png' alt="" />
 
           </div>
           <div className="fourth-skills-card">
-          <img style={{height:'9rem',width:'11rem'}} src='https://i.postimg.cc/FKDqLXQC/gcp-logo.png' alt="" />
+          <img style={{height:'7rem',width:'9rem'}} src='https://i.postimg.cc/FKDqLXQC/gcp-logo.png' alt="" />
 
           </div>
         </div>
         <div
         className="fourth-row">
         <div className="first-skills-card">
-          <img style={{height:'6rem',width:'6rem'}} src={githubLogo} alt="" />
+          <img style={{height:'4rem',width:'4rem'}} src={githubLogo} alt="" />
 
         </div>
           <div className="second-skills-card">
-          <img style={{height:'7.5rem',width:'7.5rem'}}  src='https://i.postimg.cc/yYjr5zD1/postman-logo.webp' alt="" />
+          <img style={{height:'5.5rem',width:'5.5rem'}}  src='https://i.postimg.cc/yYjr5zD1/postman-logo.webp' alt="" />
 
           </div>
           <div className="third-skills-card">
         
-          <img style={{height:'7rem',width:'11rem'}} src='https://i.postimg.cc/JhvFqcGj/jira-logo.png' alt="" />
+          <img style={{height:'5rem',width:'9rem'}} src='https://i.postimg.cc/JhvFqcGj/jira-logo.png' alt="" />
 
           </div>
           <div className="fourth-skills-card">
-          <img style={{height:'6rem',width:'6rem'}} src='https://i.postimg.cc/Y2Dt9MG9/bootstrap-logo.png' alt="" />
+          <img style={{height:'4rem',width:'4rem'}} src='https://i.postimg.cc/Y2Dt9MG9/bootstrap-logo.png' alt="" />
          
 
           </div>

@@ -10,10 +10,10 @@ export default function Home(){
   <div className="hero-container">
     <motion.div initial = {{opacity:0}}
       animate = {{opacity:1}}
-      transition={{duration : 1,delay:0.5, type : 'ease'}} className="hero-texts">
+      transition={{duration : 0.9,delay:0.2, type : 'ease'}} className="hero-texts">
       <div className="headings">
      <h1>Full Stack Developer 👋🏼</h1>
-     <p>Hey there, I'm Nikhil Verma, a full stack developer from Mumbai, India, who loves building cool stuff! checkout the links👇🏼</p>
+     <p>Hi there! I'm Nikhil Verma, a full-stack developer from Mumbai, India. I enjoy building websites and web applications, and I love turning ideas into real, working projects. Checkout the links 👇🏼</p>
      <div className = "links">
      <i onClick={()=>{
       window.open('https://github.com/Nikhilv77')
@@ -37,7 +37,7 @@ export default function Home(){
     </motion.div>
     <motion.div  initial = {{opacity:0,y:50}}
       animate = {{opacity:1,y:0}}
-      transition={{duration : 2.3,delay:0.5, type : 'ease'}} className="hero-image">
+      transition={{duration : 1.5,delay:0.5, type : 'ease'}} className="hero-image">
       <img
       src={image} alt="" />
     </motion.div>

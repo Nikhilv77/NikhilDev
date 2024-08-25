@@ -52,7 +52,7 @@ const Projects = () => {
         filter:'grayscale(100%)'
       }}
       whileInView={{rotate:0,filter:'grayscale(0)'}}
-      transition={{type:easeInOut, duration:1, delay:0.5}}
+      transition={{type:easeInOut, duration:0.7, delay:0.3}}
       viewport={{once:true}}
       className="project-card">
   <div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>
@@ -98,7 +98,7 @@ initial = {{
   filter:'grayscale(100%)'
 }}
 whileInView={{rotate:0,filter:'grayscale(0)'}}
-transition={{type:easeInOut, duration:1, delay:0.5}}
+transition={{type:easeInOut, duration:0.7, delay:0.3}}
 viewport={{once:true}}
 className="project-card">
  <div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>
@@ -146,7 +146,7 @@ className="project-card">
         filter:'grayscale(100%)'
       }}
       whileInView={{rotate:0,filter:'grayscale(0)'}}
-      transition={{type:easeInOut, duration:1, delay:0.5}}
+      transition={{type:easeInOut, duration:0.7, delay:0.3}}
       viewport={{once:true}}
       className="project-card">
  
@@ -190,7 +190,7 @@ initial = {{
   filter:'grayscale(100%)'
 }}
 whileInView={{rotate:0,filter:'grayscale(0)'}}
-transition={{type:easeInOut, duration:1, delay:0.5}}
+transition={{type:easeInOut, duration:0.7, delay:0.3}}
 viewport={{once:true}}
 className="project-card">
 <video className="project-video" src={iShowcaseVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
@@ -229,7 +229,7 @@ initial = {{
   filter:'grayscale(100%)'
 }}
 whileInView={{rotate:0,filter:'grayscale(0)'}}
-transition={{type:easeInOut, duration:1, delay:0.5}}
+transition={{type:easeInOut, duration:0.7, delay:0.3}}
 viewport={{once:true}}
 className="project-card">
 <div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>
@@ -274,7 +274,7 @@ initial = {{
   filter:'grayscale(100%)'
 }}
 whileInView={{rotate:0,filter:'grayscale(0)'}}
-transition={{type:easeInOut, duration:1, delay:0.5}}
+transition={{type:easeInOut, duration:0.7, delay:0.3}}
 viewport={{once:true}}
 className="project-card">
 <div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>
@@ -324,7 +324,7 @@ initial = {{
   filter:'grayscale(100%)'
 }}
 whileInView={{rotate:0,filter:'grayscale(0)'}}
-transition={{type:easeInOut, duration:1, delay:0.5}}
+transition={{type:easeInOut, duration:0.7, delay:0.3}}
 viewport={{once:true}}
 className="project-card">
 <div style={{ padding: '50.63% 0 0 0', position: 'relative' }}>

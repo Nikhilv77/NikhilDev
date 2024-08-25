@@ -15,7 +15,7 @@ export default function About() {
         <motion.img initial = {{x:100,opacity:0}}
         whileInView={{x:0,opacity:1}}
         viewport={{once:true}}
-        transition={{duration:1, delay:0.5,type:'ease'}}
+        transition={{duration:.5, delay:0.3,type:'ease'}}
         src={aboutImage} alt="" />
        </div>
        <motion.div

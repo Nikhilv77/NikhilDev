@@ -25,7 +25,7 @@ const navbar = () => {
       <motion.nav
         initial={{ x:100 }}
         animate={{x:0 }}
-        transition={{ duration: 2.3, delay: 0.7, type: 'ease' }}
+        transition={{ duration: 1, delay: 0.3, type: 'ease' }}
         viewport={{once:true}}
         className="desktop-nav"
       >

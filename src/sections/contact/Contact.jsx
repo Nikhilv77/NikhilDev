@@ -8,7 +8,7 @@ const Contact = () => {
     <motion.section
     initial = {{scale:0.8,opacity:0.8}}
     whileInView={{scale:1, opacity:1}}
-    transition={{duration:1,delay:0.5, type:easeInOut}}
+    transition={{duration:0.4,delay:0.2, type:easeInOut}}
     viewport={{once:true}}
     className="contact-section"
     id="contact"

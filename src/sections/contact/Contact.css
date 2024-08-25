@@ -12,10 +12,9 @@
   grid-template-rows: 4rem auto;
 }
 .contact-section > div > h1 {
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   color: var(--secondary-color);
   text-shadow: 1px 1px 2px var(--text-color);
-  border-bottom: 3px solid var(--text-color);
   z-index: 5;
 }
 .container {
@@ -54,7 +53,7 @@
   position: relative;
 }
 .form-container > h1 {
-  font-size: 2.3rem;
+  font-size: 2.1rem;
   color: var(--secondary-color);
   text-shadow: 1px 1px 2px black;
   border-bottom: 2px solid var(--primary-color);
@@ -72,7 +71,7 @@
   gap: 0.5rem;
 }
 .contact-form > div > label {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--secondary-color);
   text-shadow: 1px 1px 2px black;
 }
@@ -96,7 +95,7 @@ textarea {
 }
 
 .contact-form > button {
-  font-size: 1.3em;
+  font-size: 1.1em;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -135,7 +134,7 @@ textarea {
 
 @media screen and (max-width: 1024px) {
   .contact-section > div > h1 {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
   }
   .container {
     width: 85vw;
@@ -153,7 +152,7 @@ textarea {
 }
 @media screen and (max-width: 767px) {
   .contact-section > div > h1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
   .container {
     grid-template-columns: 1fr;
@@ -161,10 +160,10 @@ textarea {
   }
 
   .form-container > h1 {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
   .contact-form > div > label {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .bottom-links > i {
     font-size: 2.6rem;

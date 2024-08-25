@@ -1,10 +1,11 @@
 .about-section {
-  min-height: calc(100vh - 4.5rem);
+  min-height: calc(80vh - 4.5rem);
   width: 100vw;
   background-color: var(--primary-color);
   display: grid;
   place-items: center;
   overflow: hidden;
+  margin-bottom: 0.5rem;
 }
 .about-container {
   width: 80vw;
@@ -19,8 +20,8 @@
   overflow: hidden;
 }
 .about-image img {
-  height: 97%;
-  width: 97%;
+  height: 90%;
+  width: 90%;
 }
 .about-texts {
   display: grid;
@@ -33,21 +34,20 @@
   gap: 0.7rem;
 }
 .about-texts > div > h1 {
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   color: var(--secondary-color);
   text-shadow: 1px 1px 2px var(--text-color);
-  border-bottom: 3px solid var(--text-color);
   justify-self: start;
 }
 .about-texts > div > p  {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: var(--secondary-text-color);
   line-height: 1.6;
   justify-self: start;
 }
 
 .about-texts > div > button {
-  font-size: 1.5em;
+  font-size: 1.3em;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -73,7 +73,7 @@
     width: 90vw;
   }
   .about-image {
-    height: 70%;
+    height: 85%;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -81,10 +81,10 @@
     width: 93vw;
   }
   .about-texts > h1 {
-    font-size: 2.6rem;
+    font-size: 2.3rem;
   }
   .about-image {
-    height: 60%;
+    height: 80%;
   }
   .about-image img {
     height: 90%;
@@ -92,7 +92,7 @@
 }
 @media screen and (max-width: 855px) {
   .about-texts > p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 767px) {
@@ -126,13 +126,13 @@
   }
 
   .about-texts > div > h1 {
-    font-size: 2rem !important;
+    font-size: 1.9rem !important;
     justify-self: center;
   }
   .about-texts > div > p {
     justify-self: center;
     text-align: center;
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
     line-height: 1.5;
   }
   .about-texts > div > button {
