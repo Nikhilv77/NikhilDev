@@ -156,7 +156,7 @@ const Experience = () => {
               </ul>
             </div>
             <div className="second-last-view">
-              <span>Skills - React, Framer Motion, GSAP, CSS</span>
+              <span>Tech stack - React, Framer Motion, GSAP, CSS</span>
             </div>
           </motion.div>
         </div>
