@@ -30,6 +30,7 @@
   place-items: center;
   column-gap: 1rem;
   overflow: hidden;
+
 }
 .second-card-container {
   display: grid;
@@ -66,11 +67,14 @@
   will-change: transform, opacity;
 }
 
+
 .project-video {
   height: 100%;
   width: 100%;
   object-fit: contain;
+  
 }
+
 
 .project-card-texts {
   background-color: var(--secondary-color);
@@ -131,7 +135,7 @@
   height: 100%;
   width: 100%;
   object-fit: cover; /* Avoid content overflow */
-  pointer-events: none; /* Avoid interfering with scroll */
+  pointer-events: none;
 }
 .project-card-links {
   display: flex;
