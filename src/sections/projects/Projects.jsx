@@ -43,13 +43,14 @@ const Projects = () => {
   const blinkChatBackdrop = document.getElementsByClassName('blinkchat-backdrop')[0];
   blinkChatBackdrop.style.left = '0'
  }
- const [isYumyardVisible, yumyardRef] = useLazyVideo();
-  const [isBlinkChatVisible, blinkChatRef] = useLazyVideo();
-  const [isEchoAIVisible, echoAIRef] = useLazyVideo();
-  const [isIShowcaseVisible, iShowcaseRef] = useLazyVideo();
-  const [isScoopSavorVisible, scoopSavorRef] = useLazyVideo();
-  const [isUrbanCropsVisible, urbanCropsRef] = useLazyVideo();
-  const [isPortfolioVisible, portfolioRef] = useLazyVideo();
+//  const [isYumyardVisible, yumyardRef] = useLazyVideo();
+//  const [isYumyardVisible, yumyardRef] = useLazyVideo();
+//   const [isBlinkChatVisible, blinkChatRef] = useLazyVideo();
+//   const [isEchoAIVisible, echoAIRef] = useLazyVideo();
+//   const [isIShowcaseVisible, iShowcaseRef] = useLazyVideo();
+//   const [isScoopSavorVisible, scoopSavorRef] = useLazyVideo();
+//   const [isUrbanCropsVisible, urbanCropsRef] = useLazyVideo();
+//   const [isPortfolioVisible, portfolioRef] = useLazyVideo();
   return (
     <section id="projects" className="projects-section">
       <div className="projects-container">
@@ -73,16 +74,7 @@ const Projects = () => {
         title="gc-video"
       ></iframe>
     </div> */}
-      <video
-              className="project-video"
-              ref={yumyardRef}
-              src={isYumyardVisible ? yumyardVideo : ''}
-              type="video/mp4"
-              playsInline
-              muted
-              loop
-              autoPlay
-            ></video>
+      <video className="project-video" src={yumyardVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 
 <div className="project-card-texts">
 <div className="project-texts">
@@ -129,16 +121,7 @@ className="project-card">
         title="gc-video"
       ></iframe>
     </div> */}
-     <video
-              className="project-video"
-              ref={blinkChatRef}
-              src={isBlinkChatVisible ? blinkChatVideo : ''}
-              type="video/mp4"
-              playsInline
-              muted
-              loop
-              autoPlay
-            ></video>
+    <video className="project-video" src={blinkChatVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 <div className="project-card-texts">
 <div className="project-texts">
 <h1>GingerChat</h1>
@@ -188,16 +171,7 @@ src="https://player.vimeo.com/video/943294135?badge=0&amp;autopause=0&amp;player
         title="gc-video"
       ></iframe>
     </div> */}
-       <video
-              className="project-video"
-              ref={echoAIRef}
-              src={isEchoAIVisible ? echoAIVideo : ''}
-              type="video/mp4"
-              playsInline
-              muted
-              loop
-              autoPlay
-            ></video>
+      <video className="project-video" src={echoAIVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 <div className="project-card-texts">
 <div className="project-texts">
 <h1>EchoAI</h1>
@@ -232,16 +206,7 @@ whileInView={{rotate:0,filter:'grayscale(0)'}}
 transition={{type:easeInOut, duration:0.7, delay:0.3}}
 viewport={{once:true}}
 className="project-card">
-  <video
-              className="project-video"
-              ref={iShowcaseRef}
-              src={isIShowcaseVisible ? iShowcaseVideo : ''}
-              type="video/mp4"
-              playsInline
-              muted
-              loop
-              autoPlay
-            ></video>
+<video className="project-video" src={iShowcaseVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 <div className="project-card-texts">
   <div className="project-texts">
 <h1>iShowcase</h1>
@@ -289,16 +254,7 @@ src="https://player.vimeo.com/video/943293450?badge=0&amp;autopause=0&amp;player
         title="gc-video"
       ></iframe>
     </div> */}
-        <video
-              className="project-video"
-              ref={scoopSavorRef}
-              src={isScoopSavorVisible ? scoopSavorVideo : ''}
-              type="video/mp4"
-              playsInline
-              muted
-              loop
-              autoPlay
-            ></video>
+      <video className="project-video" src={scoopSavorVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 <div className="project-card-texts">
 <div className="project-texts">
 <h1>ScoopSavor</h1>
@@ -344,16 +300,7 @@ src="https://player.vimeo.com/video/943294837?badge=0&amp;autopause=0&amp;player
         title="gc-video"
       ></iframe>
     </div> */}
-      <video
-              className="project-video"
-              ref={urbanCropsRef}
-              src={isUrbanCropsVisible ? urbanCropsVideo : ''}
-              type="video/mp4"
-              playsInline
-              muted
-              loop
-              autoPlay
-            ></video>
+      <video className="project-video" src={urbanCropsVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 
 <div className="project-card-texts">
 <div className="project-texts">
@@ -404,16 +351,7 @@ src="https://player.vimeo.com/video/943295551?badge=0&amp;autopause=0&amp;player
         title="gc-video"
       ></iframe>
     </div> */}
-     <video
-              className="project-video"
-              ref={portfolioRef}
-              src={isPortfolioVisible ? portfolioVideo : ''}
-              type="video/mp4"
-              playsInline
-              muted
-              loop
-              autoPlay
-            ></video>
+      <video className="project-video" src={portfolioVideo} type ='video/mp4' playsInline muted loop autoPlay></video>
 <div className="project-card-texts">
   <div className="project-texts">
 <h1>Portfolio</h1>
