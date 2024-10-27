@@ -67,7 +67,7 @@
 
 import React from 'react'
 import './Experience.css'
-import companyImage from '../../assets/Logo.png'
+import companyImage from '../../assets/dumpit-logo.jpeg'
 import flashLogo from '../../assets/flash-logo.jpg'
 import { easeInOut, motion } from 'framer-motion'
 const Experience = () => {
@@ -131,32 +131,33 @@ const Experience = () => {
             viewport={{ once: true }} className="second-new-experience-card-container">
             <div className="second-top-view">
               <div className="second-top-view-first-col">
-                <img src={companyImage} alt="Tagsocial Logo" />
+                <img src={companyImage} alt="Dumpit Logo" />
               </div>
               <div className="second-top-view-second-col">
-                <h4>Application Developer Intern</h4>
-                <span>Tagsocial</span>
-                <span>Jan 2024 - July 2024</span>
+                <h4>Application Developer</h4>
+                <span>Dumpit</span>
+                <span>Nov 2023 - July 2024(9 Months)</span>
               </div>
             </div>
             <div className="second-mid-view">
-              <ul>
-                <li>
-                  Implemented advanced animations using GSAP and Framer Motion,
-                  enhancing user retention by 50%.
-                </li>
-                <li>
-                  Built a responsive and animated web app, improving load times
-                  by 30%.
-                </li>
-                <li>
-                  Collaborated with the designer to implement new features,
-                  resulting in a 25% increase in functionality.
-                </li>
-              </ul>
+            <ul>
+  <li>
+    Developed the website for Dumpit using React, GSAP, and Framer Motion, adding smooth animations for an engaging user experience.
+  </li>
+  <li>
+    Built a responsive design, ensuring the site performs well across devices with optimized load times.
+  </li>
+  <li>
+    Worked on Dumpit mobile app using Flutter and Firebase, focusing on speed and smooth functionality across different platforms.
+  </li>
+  <li>
+    Collaborated with the designer to add new features, improving functionality and usability on both the website and the app.
+  </li>
+</ul>
+
             </div>
             <div className="second-last-view">
-              <span>Tech stack - React, Framer Motion, GSAP, CSS</span>
+              <span>Tech stack -Flutter, NodeJs, ReactJs, Framer Motion, GSAP, CSS</span>
             </div>
           </motion.div>
         </div>

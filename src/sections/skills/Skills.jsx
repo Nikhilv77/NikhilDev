@@ -98,6 +98,24 @@ style={{height:'5rem',width:'5rem'}}  src='https://i.postimg.cc/HLdqzhcR/react-l
           </div>
         </div>
         <div
+        className="third-row">
+        <div className="first-skills-card">
+        <img style={{height:'5rem',width:'5rem'}}  src='https://i.postimg.cc/8k3Zx7VV/flutter-logo.webp' alt="" />
+        </div>
+          <div className="second-skills-card">
+          <img style={{height:'5rem',width:'5rem'}}  src='https://i.postimg.cc/J4kp8R1H/postgresql-logo.png' alt="" />
+
+          </div>
+          <div className="third-skills-card">
+          <img style={{height:'5.5rem',width:'7rem'}} src='https://i.postimg.cc/5tn3g0mT/firebase-logo.webp' alt="" />
+
+          </div>
+          <div className="fourth-skills-card">
+          <img style={{height:'5rem',width:'7rem'}} src='https://i.postimg.cc/SRP4tfF8/aws-logo.png' alt="" />
+
+          </div>
+        </div>
+        <div
         className="fourth-row">
         <div className="first-skills-card">
           <img style={{height:'4rem',width:'4rem'}} src={githubLogo} alt="" />
