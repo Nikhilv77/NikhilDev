@@ -4,7 +4,8 @@ import './Skills.css';
 import mongodbLogo from '../../assets/mongodb-logo.svg';
 
 import githubLogo from '../../assets/github-logo.png'
-
+import tsLogo from '../../assets/ts-logo.png';
+import tailwindLogo from '../../assets/tailwind-logo.png';
 import { easeInOut, motion } from "framer-motion";
 
 const Skills = () => {
@@ -27,7 +28,7 @@ const Skills = () => {
    
         className="first-row">
           <div className="first-skills-card">
-             <img src='https://i.postimg.cc/zfkr1rYq/java-logo.png' alt="" />
+             <img src={tsLogo} alt="" />
           </div>
           <div className="second-skills-card">
             <img
@@ -51,7 +52,7 @@ const Skills = () => {
             whileInView={{scale:1,rotate:360}}
             transition={{duration:1, delay:0.2, type:easeInOut}}
             viewport={{once:true}}
-            src='https://i.postimg.cc/4yYktH73/javascript-logo.webp' alt="" />
+            src={tailwindLogo} alt="" />
           </div>
         </div>
         <div

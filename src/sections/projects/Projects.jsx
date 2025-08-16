@@ -2,12 +2,7 @@ import React, { useRef } from "react";
 import './Projects.css';
 import { easeInOut, motion } from 'framer-motion';
 import VimeoPlayer from '@vimeo/player'; // Import VimeoPlayer
-import echoAIVideo from '../../assets/echo-ai.mp4';
-import urbanCropsVideo from '../../assets/uc.mp4';
-import yumyardVideo from '../../assets/Yumyard.mp4';
-import scoopSavorVideo from '../../assets/ss.mp4';
-import portfolioVideo from '../../assets/portfolio-video.mp4';
-import blinkChatVideo from '../../assets/gc-video.mp4';
+
 import iShowcaseVideo from '../../assets/ishowcase.mp4'
 
 
@@ -370,61 +365,6 @@ className="project-card">
 </div>
 </motion.div>
 
-
-        </div>
-        <div className="fourth-card-container"> 
-        <motion.div
-initial = {{
-  rotate:15,
-  filter:'grayscale(100%)'
-}}
-whileInView={{rotate:0,filter:'grayscale(0)'}}
-transition={{type:easeInOut, duration:0.7, delay:0.3}}
-viewport={{once:true}}
-className="project-card">
-
-<div
-              style={{ padding: '50.63% 0 0 0', position: 'relative' }}
-              onMouseEnter={() => handleMouseEnter('video6')}
-              onMouseLeave={() => handleMouseLeave('video6')}
-            >
-              <iframe
-                ref={(ref) => (vimeoRefs.current['video6'] = new VimeoPlayer(ref))}
-                src="https://player.vimeo.com/video/943295551?loop=1&controls=0&muted=1"
-                frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-                style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}
-                title="gc-video"
-              ></iframe>
-            </div>
-
-<div className="project-card-texts">
-  <div className="project-texts">
-<h1>Portfolio</h1>
-  <h2>Front-End portfolio website made in React Js, Css, Framer-motion(for animations).
- For form submission, it uses formspree.
-  
-  </h2>
-  <div>
-  {/* <button className="know-more">Know more</button> */}
-  </div>
-  </div>
-  <div className="project-card-bottom">
-  <div onClick={()=>{
-    window.open('https://github.com/Nikhilv77/NikhilDev')
-  }} className="project-card-links">
-  <i class="ri-github-line"></i>
-    <span>Source code</span>
-  </div>
-  <div onClick={()=>{
-    window.open('https://nikhilverma.vercel.app/')
-  }} className="project-card-links">
-    <i class="ri-global-line"></i>
-    <span>Live demo</span>
-  </div>
-</div>
-</div>
-</motion.div>
 
         </div>
       </div>

@@ -116,9 +116,8 @@ const Experience = () => {
             </div>
             <div className="first-last-view">
               <span>
-                Tech stack - MongoDB, Docker, Nginx, React.js, Postman, Jira,
-                Google Cloud Platform (GCP), AngularJS, Node.js, Express.js,
-                Firebase
+                Tech stack - Typescript, React.js, Node.js, Express.js, Firebase, Docker, MongoDB, Posgresql, Postman, Jira,
+                Aws
               </span>
             </div>
           </motion.div>

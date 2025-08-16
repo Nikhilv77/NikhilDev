@@ -1,6 +1,6 @@
 import React from "react";
 import './Home.css'
-import image from '../../assets/my-new-image.jpg'
+import image from '../../assets/my-new-image.jpeg'
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 
