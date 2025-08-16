@@ -119,6 +119,7 @@ initial = {{
   rotate:15,
   filter:'grayscale(100%)'
 }}
+
 whileInView={{rotate:0,filter:'grayscale(0)'}}
 transition={{type:easeInOut, duration:0.7, delay:0.3}}
 viewport={{once:true}}
