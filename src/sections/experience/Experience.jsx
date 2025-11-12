@@ -147,7 +147,7 @@ const Experience = () => {
     Built a responsive design, ensuring the site performs well across devices with optimized load times.
   </li>
   <li>
-    Worked on Dumpit mobile app using React Native and Firebase, focusing on speed and smooth functionality across different platforms.
+    Worked on Dumpit mobile app using React Native and NodeJs, focusing on speed and smooth functionality.
   </li>
   <li>
     Collaborated with the designer to add new features, improving functionality and usability on both the website and the app.
@@ -156,7 +156,7 @@ const Experience = () => {
 
             </div>
             <div className="second-last-view">
-              <span>Tech stack -React Native, NodeJs, ReactJs, Framer Motion, GSAP, CSS</span>
+              <span>Tech stack - React Native, NodeJs, ReactJs, Framer Motion, GSAP, CSS</span>
             </div>
           </motion.div>
         </div>
