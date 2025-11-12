@@ -133,9 +133,9 @@ const Experience = () => {
                 <img src={companyImage} alt="Dumpit Logo" />
               </div>
               <div className="second-top-view-second-col">
-                <h4>Application Developer</h4>
+                <h4>Software Engineer (Founding Member)</h4>
                 <span>Dumpit</span>
-                <span>Nov 2023 - July 2024(9 Months)</span>
+                <span>Aug 2023 - July 2024(1 Year)</span>
               </div>
             </div>
             <div className="second-mid-view">
@@ -147,7 +147,7 @@ const Experience = () => {
     Built a responsive design, ensuring the site performs well across devices with optimized load times.
   </li>
   <li>
-    Worked on Dumpit mobile app using Flutter and Firebase, focusing on speed and smooth functionality across different platforms.
+    Worked on Dumpit mobile app using React Native and Firebase, focusing on speed and smooth functionality across different platforms.
   </li>
   <li>
     Collaborated with the designer to add new features, improving functionality and usability on both the website and the app.
@@ -156,7 +156,7 @@ const Experience = () => {
 
             </div>
             <div className="second-last-view">
-              <span>Tech stack -Flutter, NodeJs, ReactJs, Framer Motion, GSAP, CSS</span>
+              <span>Tech stack -React Native, NodeJs, ReactJs, Framer Motion, GSAP, CSS</span>
             </div>
           </motion.div>
         </div>
