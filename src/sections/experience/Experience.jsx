@@ -135,7 +135,7 @@ const Experience = () => {
               <div className="second-top-view-second-col">
                 <h4>Software Engineer (Founding Member)</h4>
                 <span>Dumpit</span>
-                <span>Aug 2023 - July 2024(1 Year)</span>
+                <span>Aug 2023 - July 2024 (1 Year)</span>
               </div>
             </div>
             <div className="second-mid-view">
